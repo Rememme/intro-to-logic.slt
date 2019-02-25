@@ -10,6 +10,10 @@
 
 [reddit](https://www.reddit.com/r/intrologRPI/) 也有很多历史答案
 
+## 一对一
+
+添加微信`DeprecatedBot`一对一获得解答
+
 ## Answers
 
 接下来的会在下面更新（注意新增文件）
@@ -17,22 +21,22 @@
 |名称|链接|备注|
 |---|---|---|
 |switching_conjuncts_fine|[本页](switching_conjuncts_fine.slt)|全部作业答案中包含|
-|Explosion|[本页](explosion.slt)|全部作业答案中包含|
-|NYS_3|[本页](nys3.slt)|全部作业答案中包含|
-|GreenCheeseMoon1|[本页](greencheesemoon1.slt)|全部作业答案中包含|
+|Explosion|[本页](Explosion.slt)|全部作业答案中包含|
+|NYS_3|[本页](NYS_3.slt)|全部作业答案中包含|
+|GreenCheeseMoon1|[本页](GreenCheeseMoon1.slt)|全部作业答案中包含|
 |Disj_Elim|[本页](Disj_Elim.slt)|全部作业答案中包含|
 |NYS3|[本页](NYS_3.slt)|全部作业答案中包含|
 |NYS1|[本页](NYS_1.slt)|全部作业答案中包含|
-|BiconditionalIntroByChaining|[本页](biconditionalintrobychaining.slt)|**不包含在全部答案**|
+|BiconditionalIntroByChaining|[本页](BiconditionalIntroByChaining.slt)|**不包含在全部答案**|
 |tertium_n_datur|[本页](tertium_n_datur.slt)|全部作业答案中包含|
 |EVENT|-|**TEST 1**|
-|KnightKnave_SmullyanKKProblem1.1|[本页](knightknave_smullyankkproblem1-1.slt)|128 symbols|
-|AthenCfromAthenBandBthenC|[本页](athencfromathenbandbthenc.slt)|30 symbols|
-|EmmaHelpedToo|[本页](emmahelpedtoo.slt)|162 symbols|
-|Special_Problem_1|-|两种常见题型，请加微信群查看解答，或添加微信`DeprecatedBot`一对一获得解答|
+|KnightKnave_SmullyanKKProblem1.1|[本页](KnightKnave_SmullyanKKProblem1.1.slt)|128 symbols|
+|AthenCfromAthenBandBthenC|[本页](AthenCfromAthenBandBthenC.slt)|30 symbols|
+|EmmaHelpedToo|[本页](EmmaHelpedToo.slt)|162 symbols|
+|Special_Problem_1|-|两种常见题型，一对一解答请看上方|
 |END EVENT|-|**TEST 1**|
 |kok31_13|[本页](kok31_13.slt)|**不包含在全部答案**，[感谢](https://www.reddit.com/r/intrologRPI/comments/882vrw/kok13_31/)|
-|RipsSays1|[本页](ripssays1.slt)|全部作业答案中包含|
+|RipsSays1|[本页](RipsSays1.slt)|全部作业答案中包含|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
