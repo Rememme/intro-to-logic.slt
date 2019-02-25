@@ -1,0 +1,144 @@
+
+(:DESCRIPTIONS
+ ((:X
+   499
+   :Y
+   15
+   :ID
+   2
+   :NAME
+   "GIVEN2"
+   :FORMULA
+   "(exists x (forall y (Likes x y)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   58
+   :Y
+   189
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "(forall (y) (if (Likes a y) (Likes y a)))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   77
+   :Y
+   351
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "(if (Likes a b) (Likes b a))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   15
+   :Y
+   27
+   :ID
+   1
+   :NAME
+   "GIVEN1"
+   :FORMULA
+   "(forall (x y) (if (Likes x y) (Likes y x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   387
+   :Y
+   108
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "(forall (y) (Likes a y))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   401
+   :Y
+   340
+   :ID
+   7
+   :NAME
+   ""
+   :FORMULA
+   "(Likes a b)"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   279
+   :Y
+   485
+   :ID
+   8
+   :NAME
+   ""
+   :FORMULA
+   "(Likes b a)"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   265
+   :Y
+   597
+   :ID
+   9
+   :NAME
+   ""
+   :FORMULA
+   "(exists (y) (Likes b y))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-INTRO)
+  (:X
+   443
+   :Y
+   710
+   :ID
+   10
+   :NAME
+   ""
+   :FORMULA
+   "(exists (y) (Likes b y))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-ELIM)
+  (:X
+   424
+   :Y
+   881
+   :ID
+   3
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(forall x (exists y (Likes x y)))"
+   :JUSTIFICATION
+   LOGIC::FORALL-INTRO))
+ :STRUCTURES
+ ((:CONCLUSION 2 :PREMISES NIL)
+  (:CONCLUSION 4 :PREMISES (1))
+  (:CONCLUSION 5 :PREMISES (4))
+  (:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 6 :PREMISES NIL)
+  (:CONCLUSION 7 :PREMISES (6))
+  (:CONCLUSION 8 :PREMISES (5 7))
+  (:CONCLUSION 9 :PREMISES (8))
+  (:CONCLUSION 10 :PREMISES (9 2))
+  (:CONCLUSION 3 :PREMISES (10)))
+ :INTERFACE
+ (:X
+  207
+  :Y
+  39
+  :WIDTH
+  1536
+  :HEIGHT
+  781
+  :PROOF-SYSTEM
+  LOGIC::FIRST-ORDER-LOGIC))

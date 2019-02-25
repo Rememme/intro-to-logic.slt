@@ -1,0 +1,208 @@
+(:DESCRIPTIONS
+ ((:X
+   179
+   :Y
+   27
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "P"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   120
+   :Y
+   197
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "Q"
+   :JUSTIFICATION
+   LOGIC::IFF-ELIM)
+  (:X
+   161
+   :Y
+   325
+   :ID
+   7
+   :NAME
+   ""
+   :FORMULA
+   "R"
+   :JUSTIFICATION
+   LOGIC::IFF-ELIM)
+  (:X
+   209
+   :Y
+   474
+   :ID
+   8
+   :NAME
+   ""
+   :FORMULA
+   "S"
+   :JUSTIFICATION
+   LOGIC::IFF-ELIM)
+  (:X
+   245
+   :Y
+   99
+   :ID
+   3
+   :NAME
+   "GIVEN"
+   :FORMULA
+   "(iff Q R)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   821
+   :Y
+   158
+   :ID
+   11
+   :NAME
+   ""
+   :FORMULA
+   "(iff Q R)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   341
+   :Y
+   280
+   :ID
+   1
+   :NAME
+   "GIVEN"
+   :FORMULA
+   "(iff R S)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   18
+   :Y
+   29
+   :ID
+   2
+   :NAME
+   "GIVEN"
+   :FORMULA
+   "(iff P Q)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   812
+   :Y
+   41
+   :ID
+   10
+   :NAME
+   ""
+   :FORMULA
+   "(iff R S)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   683
+   :Y
+   175
+   :ID
+   14
+   :NAME
+   ""
+   :FORMULA
+   "R"
+   :JUSTIFICATION
+   LOGIC::IFF-ELIM)
+  (:X
+   719
+   :Y
+   337
+   :ID
+   15
+   :NAME
+   ""
+   :FORMULA
+   "Q"
+   :JUSTIFICATION
+   LOGIC::IFF-ELIM)
+  (:X
+   532
+   :Y
+   508
+   :ID
+   9
+   :NAME
+   ""
+   :FORMULA
+   "P"
+   :JUSTIFICATION
+   LOGIC::IFF-ELIM)
+  (:X
+   848
+   :Y
+   338
+   :ID
+   12
+   :NAME
+   ""
+   :FORMULA
+   "(iff P Q)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   618
+   :Y
+   34
+   :ID
+   13
+   :NAME
+   ""
+   :FORMULA
+   "S"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   240
+   :Y
+   691
+   :ID
+   4
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(iff P S)"
+   :JUSTIFICATION
+   LOGIC::IFF-INTRO))
+ :STRUCTURES
+ ((:CONCLUSION 5 :PREMISES NIL)
+  (:CONCLUSION 6 :PREMISES (5 2))
+  (:CONCLUSION 7 :PREMISES (3 6))
+  (:CONCLUSION 8 :PREMISES (1 7))
+  (:CONCLUSION 3 :PREMISES NIL)
+  (:CONCLUSION 11 :PREMISES NIL)
+  (:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 2 :PREMISES NIL)
+  (:CONCLUSION 10 :PREMISES NIL)
+  (:CONCLUSION 14 :PREMISES (10 13))
+  (:CONCLUSION 15 :PREMISES (11 14))
+  (:CONCLUSION 9 :PREMISES (12 15))
+  (:CONCLUSION 12 :PREMISES NIL)
+  (:CONCLUSION 13 :PREMISES NIL)
+  (:CONCLUSION 4 :PREMISES (8 9)))
+ :INTERFACE
+ (:X
+  539
+  :Y
+  12
+  :WIDTH
+  1536
+  :HEIGHT
+  781
+  :PROOF-SYSTEM
+  LOGIC::PROPOSITIONAL-CALCULUS))

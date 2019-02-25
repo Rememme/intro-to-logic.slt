@@ -1,0 +1,352 @@
+
+(:DESCRIPTIONS
+ ((:X
+   223
+   :Y
+   933
+   :ID
+   23
+   :NAME
+   "23"
+   :FORMULA
+   "(and (Knave b) (Knight c) )"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   573
+   :Y
+   941
+   :ID
+   22
+   :NAME
+   "22"
+   :FORMULA
+   "(Knight c)"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   118
+   :Y
+   1087
+   :ID
+   21
+   :NAME
+   "21"
+   :FORMULA
+   "(Knave b)"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   386
+   :Y
+   855
+   :ID
+   20
+   :NAME
+   "20"
+   :FORMULA
+   "(and (Knight b) (Answer b (string  knave)))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   443
+   :Y
+   791
+   :ID
+   19
+   :NAME
+   "13"
+   :FORMULA
+   "(Knight b)"
+   :JUSTIFICATION
+   LOGIC::IFF-ELIM)
+  (:X
+   404
+   :Y
+   753
+   :ID
+   14
+   :NAME
+   "14"
+   :FORMULA
+   "(Knave b)"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   691
+   :Y
+   766
+   :ID
+   16
+   :NAME
+   "16"
+   :FORMULA
+   "(Knight c)"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   468
+   :Y
+   1083
+   :ID
+   1
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(and (Knave b) (Knight c) )"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   323
+   :Y
+   1149
+   :ID
+   29
+   :NAME
+   "29"
+   :FORMULA
+   "(and (Knave b) (Knight c) )"
+   :JUSTIFICATION
+   LOGIC::OR-ELIM)
+  (:X
+   810
+   :Y
+   1063
+   :ID
+   24
+   :NAME
+   "24"
+   :FORMULA
+   "(or (not (Knave b))  (Knave b))"
+   :JUSTIFICATION
+   LOGIC::NOT-ELIM)
+  (:X
+   872
+   :Y
+   937
+   :ID
+   27
+   :NAME
+   "27"
+   :FORMULA
+   "(or (not (Knave b))  (Knave b))"
+   :JUSTIFICATION
+   LOGIC::OR-INTRO)
+  (:X
+   934
+   :Y
+   859
+   :ID
+   28
+   :NAME
+   "28"
+   :FORMULA
+   "(not (Knave b))"
+   :JUSTIFICATION
+   LOGIC::NOT-INTRO)
+  (:X
+   996
+   :Y
+   772
+   :ID
+   26
+   :NAME
+   "26"
+   :FORMULA
+   "(or (not (Knave b))  (Knave b))"
+   :JUSTIFICATION
+   LOGIC::OR-INTRO)
+  (:X
+   892
+   :Y
+   681
+   :ID
+   25
+   :NAME
+   "25"
+   :FORMULA
+   "(not (or (not (Knave b))  (Knave b)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   1050
+   :Y
+   507
+   :ID
+   11
+   :NAME
+   "11"
+   :FORMULA
+   "(Knave b)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   231
+   :Y
+   641
+   :ID
+   2
+   :NAME
+   "GIVEN 1"
+   :FORMULA
+   "(iff (Knight b) (not (Knave b)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   429
+   :Y
+   638
+   :ID
+   8
+   :NAME
+   "GIVEN 7"
+   :FORMULA
+   "(if (Knave b) (Knight c))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   650
+   :Y
+   659
+   :ID
+   17
+   :NAME
+   "GIVEN 3"
+   :FORMULA
+   "(and (Knight b) (Answer b (string  knave)))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   569
+   :Y
+   517
+   :ID
+   13
+   :NAME
+   "13"
+   :FORMULA
+   "(Knight b)"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   487
+   :Y
+   526
+   :ID
+   18
+   :NAME
+   "18"
+   :FORMULA
+   "(not (Knave b))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   48
+   :Y
+   481
+   :ID
+   5
+   :NAME
+   "GIVEN 4"
+   :FORMULA
+   "(if (and (Knight b) (Answer b (string  knave)) ) (Knave b))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   704
+   :Y
+   576
+   :ID
+   12
+   :NAME
+   "GIVEN 3"
+   :FORMULA
+   "(and (Knave b) (Answer b (string  knave)))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   887
+   :Y
+   398
+   :ID
+   4
+   :NAME
+   "GIVEN 3"
+   :FORMULA
+   "(Answer b (string  knave))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   65
+   :Y
+   490
+   :ID
+   6
+   :NAME
+   "GIVEN 5"
+   :FORMULA
+   "(if (and (Knave b) (Answer b (string  knave)) ) (Knight b))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   341
+   :Y
+   305
+   :ID
+   7
+   :NAME
+   "GIVEN 6"
+   :FORMULA
+   "(if (not (PossibleAnswer b (string  knave))) (Knave b))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   455
+   :Y
+   226
+   :ID
+   3
+   :NAME
+   "GIVEN 2"
+   :FORMULA
+   "(Answer a (string  nonsense))"
+   :JUSTIFICATION
+   LOGIC::ASSUME))
+ :STRUCTURES
+ ((:CONCLUSION 23 :PREMISES (21 22))
+  (:CONCLUSION 22 :PREMISES (21 8))
+  (:CONCLUSION 21 :PREMISES (5 20))
+  (:CONCLUSION 20 :PREMISES (4 19))
+  (:CONCLUSION 19 :PREMISES (2 18))
+  (:CONCLUSION 14 :PREMISES (5 17))
+  (:CONCLUSION 16 :PREMISES (14 8))
+  (:CONCLUSION 1 :PREMISES (14 16))
+  (:CONCLUSION 29 :PREMISES (24 1 23))
+  (:CONCLUSION 24 :PREMISES (25 27))
+  (:CONCLUSION 27 :PREMISES (28))
+  (:CONCLUSION 28 :PREMISES (25 26))
+  (:CONCLUSION 26 :PREMISES (11))
+  (:CONCLUSION 25 :PREMISES NIL)
+  (:CONCLUSION 11 :PREMISES NIL)
+  (:CONCLUSION 2 :PREMISES NIL)
+  (:CONCLUSION 8 :PREMISES NIL)
+  (:CONCLUSION 17 :PREMISES (4 13))
+  (:CONCLUSION 13 :PREMISES (12 6))
+  (:CONCLUSION 18 :PREMISES NIL)
+  (:CONCLUSION 5 :PREMISES NIL)
+  (:CONCLUSION 12 :PREMISES (11 4))
+  (:CONCLUSION 4 :PREMISES NIL)
+  (:CONCLUSION 6 :PREMISES NIL)
+  (:CONCLUSION 7 :PREMISES NIL)
+  (:CONCLUSION 3 :PREMISES NIL))
+ :INTERFACE
+ (:X
+  0
+  :Y
+  0
+  :WIDTH
+  1536
+  :HEIGHT
+  781
+  :PROOF-SYSTEM
+  LOGIC::PREDICATE-CALCULUS))

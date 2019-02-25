@@ -1,0 +1,417 @@
+
+(:DESCRIPTIONS
+ ((:X
+   185
+   :Y
+   46
+   :ID
+   2
+   :NAME
+   ""
+   :FORMULA
+   "(not C)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   40
+   :Y
+   39
+   :ID
+   1
+   :NAME
+   ""
+   :FORMULA
+   "(not (not C))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   131
+   :Y
+   161
+   :ID
+   3
+   :NAME
+   ""
+   :FORMULA
+   "C"
+   :JUSTIFICATION
+   LOGIC::NOT-ELIM)
+  (:X
+   328
+   :Y
+   42
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "(if C A)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   131
+   :Y
+   302
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "A"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   387
+   :Y
+   118
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "(not B)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   385
+   :Y
+   264
+   :ID
+   8
+   :NAME
+   ""
+   :FORMULA
+   "(and (not A) (not B))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   410
+   :Y
+   373
+   :ID
+   9
+   :NAME
+   ""
+   :FORMULA
+   "(not A)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   258
+   :Y
+   494
+   :ID
+   10
+   :NAME
+   ""
+   :FORMULA
+   "B"
+   :JUSTIFICATION
+   LOGIC::NOT-ELIM)
+  (:X
+   494
+   :Y
+   73
+   :ID
+   7
+   :NAME
+   ""
+   :FORMULA
+   "(not A)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   559
+   :Y
+   0
+   :ID
+   11
+   :NAME
+   ""
+   :FORMULA
+   "(or (not A) B)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   599
+   :Y
+   370
+   :ID
+   13
+   :NAME
+   ""
+   :FORMULA
+   "B"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   370
+   :Y
+   620
+   :ID
+   12
+   :NAME
+   ""
+   :FORMULA
+   "B"
+   :JUSTIFICATION
+   LOGIC::OR-ELIM)
+  (:X
+   679
+   :Y
+   528
+   :ID
+   15
+   :NAME
+   ""
+   :FORMULA
+   "D"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   635
+   :Y
+   67
+   :ID
+   14
+   :NAME
+   ""
+   :FORMULA
+   "(if B D)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   740
+   :Y
+   8
+   :ID
+   16
+   :NAME
+   ""
+   :FORMULA
+   "D"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   748
+   :Y
+   185
+   :ID
+   17
+   :NAME
+   ""
+   :FORMULA
+   "(or D E)"
+   :JUSTIFICATION
+   LOGIC::OR-INTRO)
+  (:X
+   887
+   :Y
+   30
+   :ID
+   18
+   :NAME
+   ""
+   :FORMULA
+   "(not (or D E))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   802
+   :Y
+   335
+   :ID
+   19
+   :NAME
+   ""
+   :FORMULA
+   "(not D)"
+   :JUSTIFICATION
+   LOGIC::NOT-INTRO)
+  (:X
+   1039
+   :Y
+   35
+   :ID
+   20
+   :NAME
+   ""
+   :FORMULA
+   "E"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   1050
+   :Y
+   168
+   :ID
+   21
+   :NAME
+   ""
+   :FORMULA
+   "(or D E)"
+   :JUSTIFICATION
+   LOGIC::OR-INTRO)
+  (:X
+   1027
+   :Y
+   370
+   :ID
+   22
+   :NAME
+   ""
+   :FORMULA
+   "(not E)"
+   :JUSTIFICATION
+   LOGIC::NOT-INTRO)
+  (:X
+   892
+   :Y
+   499
+   :ID
+   23
+   :NAME
+   ""
+   :FORMULA
+   "(and (not D) (not E))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   812
+   :Y
+   642
+   :ID
+   24
+   :NAME
+   ""
+   :FORMULA
+   "(not D)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   702
+   :Y
+   745
+   :ID
+   25
+   :NAME
+   ""
+   :FORMULA
+   "(and D (not D))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   370
+   :Y
+   868
+   :ID
+   26
+   :NAME
+   ""
+   :FORMULA
+   "D"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   759
+   :Y
+   877
+   :ID
+   29
+   :NAME
+   ""
+   :FORMULA
+   "(not H)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   722
+   :Y
+   1106
+   :ID
+   31
+   :NAME
+   ""
+   :FORMULA
+   "(not D)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   380
+   :Y
+   1227
+   :ID
+   28
+   :NAME
+   ""
+   :FORMULA
+   "H"
+   :JUSTIFICATION
+   LOGIC::NOT-ELIM)
+  (:X
+   1048
+   :Y
+   997
+   :ID
+   30
+   :NAME
+   ""
+   :FORMULA
+   "(and (not H) (not D))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   1052
+   :Y
+   859
+   :ID
+   27
+   :NAME
+   ""
+   :FORMULA
+   "(not D)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM))
+ :STRUCTURES
+ ((:CONCLUSION 2 :PREMISES NIL)
+  (:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 3 :PREMISES (2 1))
+  (:CONCLUSION 5 :PREMISES NIL)
+  (:CONCLUSION 4 :PREMISES (5 3))
+  (:CONCLUSION 6 :PREMISES NIL)
+  (:CONCLUSION 8 :PREMISES (7 6))
+  (:CONCLUSION 9 :PREMISES (8))
+  (:CONCLUSION 10 :PREMISES (9 4))
+  (:CONCLUSION 7 :PREMISES NIL)
+  (:CONCLUSION 11 :PREMISES NIL)
+  (:CONCLUSION 13 :PREMISES NIL)
+  (:CONCLUSION 12 :PREMISES (13 11 10))
+  (:CONCLUSION 15 :PREMISES (12 14))
+  (:CONCLUSION 14 :PREMISES NIL)
+  (:CONCLUSION 16 :PREMISES NIL)
+  (:CONCLUSION 17 :PREMISES (16))
+  (:CONCLUSION 18 :PREMISES NIL)
+  (:CONCLUSION 19 :PREMISES (18 17))
+  (:CONCLUSION 20 :PREMISES NIL)
+  (:CONCLUSION 21 :PREMISES (20))
+  (:CONCLUSION 22 :PREMISES (21 18))
+  (:CONCLUSION 23 :PREMISES (19 22))
+  (:CONCLUSION 24 :PREMISES (23))
+  (:CONCLUSION 25 :PREMISES (15 24))
+  (:CONCLUSION 26 :PREMISES (25))
+  (:CONCLUSION 29 :PREMISES NIL)
+  (:CONCLUSION 31 :PREMISES (30))
+  (:CONCLUSION 28 :PREMISES (31 26))
+  (:CONCLUSION 30 :PREMISES (27 29))
+  (:CONCLUSION 27 :PREMISES (25)))
+ :INTERFACE
+ (:X
+  314
+  :Y
+  98
+  :WIDTH
+  1133
+  :HEIGHT
+  785
+  :PROOF-SYSTEM
+  LOGIC::PROPOSITIONAL-CALCULUS))

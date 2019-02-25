@@ -1,0 +1,157 @@
+
+(:DESCRIPTIONS
+ ((:X
+   305
+   :Y
+   282
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "S"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   110
+   :Y
+   156
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "P"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   356
+   :Y
+   127
+   :ID
+   7
+   :NAME
+   ""
+   :FORMULA
+   "Q"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   465
+   :Y
+   276
+   :ID
+   8
+   :NAME
+   ""
+   :FORMULA
+   "S"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   664
+   :Y
+   293
+   :ID
+   10
+   :NAME
+   ""
+   :FORMULA
+   "S"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   380
+   :Y
+   458
+   :ID
+   11
+   :NAME
+   "GOAL"
+   :FORMULA
+   "S"
+   :JUSTIFICATION
+   LOGIC::OR-ELIM)
+  (:X
+   548
+   :Y
+   166
+   :ID
+   9
+   :NAME
+   ""
+   :FORMULA
+   "R"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   195
+   :Y
+   38
+   :ID
+   2
+   :NAME
+   ""
+   :FORMULA
+   "(if P S)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   674
+   :Y
+   105
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "(if R S)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   494
+   :Y
+   33
+   :ID
+   3
+   :NAME
+   ""
+   :FORMULA
+   "(if Q S)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   9
+   :Y
+   255
+   :ID
+   1
+   :NAME
+   ""
+   :FORMULA
+   "(or P Q R)"
+   :JUSTIFICATION
+   LOGIC::ASSUME))
+ :STRUCTURES
+ ((:CONCLUSION 6 :PREMISES (5 2))
+  (:CONCLUSION 5 :PREMISES NIL)
+  (:CONCLUSION 7 :PREMISES NIL)
+  (:CONCLUSION 8 :PREMISES (7 3))
+  (:CONCLUSION 10 :PREMISES (9 4))
+  (:CONCLUSION 11 :PREMISES (10 8 6 1))
+  (:CONCLUSION 9 :PREMISES NIL)
+  (:CONCLUSION 2 :PREMISES NIL)
+  (:CONCLUSION 4 :PREMISES NIL)
+  (:CONCLUSION 3 :PREMISES NIL)
+  (:CONCLUSION 1 :PREMISES NIL))
+ :INTERFACE
+ (:X
+  1046
+  :Y
+  159
+  :WIDTH
+  828
+  :HEIGHT
+  625
+  :PROOF-SYSTEM
+  LOGIC::PROPOSITIONAL-CALCULUS))

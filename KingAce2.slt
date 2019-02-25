@@ -1,0 +1,183 @@
+
+(:DESCRIPTIONS
+ ((:X
+   11
+   :Y
+   32
+   :ID
+   1
+   :NAME
+   ""
+   :FORMULA
+   "(and (or (if K A) (if (not K) A) ) (not (and (if K A) (if (not K) A) )) )"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   118
+   :Y
+   226
+   :ID
+   2
+   :NAME
+   ""
+   :FORMULA
+   "(not (and (if K A) (if (not K) A)))"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   481
+   :Y
+   24
+   :ID
+   3
+   :NAME
+   ""
+   :FORMULA
+   "(not K)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   626
+   :Y
+   25
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "A"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   761
+   :Y
+   21
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "K"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   705
+   :Y
+   151
+   :ID
+   7
+   :NAME
+   ""
+   :FORMULA
+   "(and K A)"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   549
+   :Y
+   150
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "(and (not K) A)"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   575
+   :Y
+   260
+   :ID
+   8
+   :NAME
+   ""
+   :FORMULA
+   "A"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   725
+   :Y
+   265
+   :ID
+   9
+   :NAME
+   ""
+   :FORMULA
+   "A"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   540
+   :Y
+   367
+   :ID
+   10
+   :NAME
+   ""
+   :FORMULA
+   "(if (not K) A)"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   696
+   :Y
+   371
+   :ID
+   11
+   :NAME
+   ""
+   :FORMULA
+   "(if K A)"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   566
+   :Y
+   491
+   :ID
+   12
+   :NAME
+   ""
+   :FORMULA
+   "(and (if K A) (if (not K) A))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   380
+   :Y
+   653
+   :ID
+   13
+   :NAME
+   ""
+   :FORMULA
+   "(not A)"
+   :JUSTIFICATION
+   LOGIC::NOT-INTRO))
+ :STRUCTURES
+ ((:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 2 :PREMISES (1))
+  (:CONCLUSION 3 :PREMISES NIL)
+  (:CONCLUSION 4 :PREMISES NIL)
+  (:CONCLUSION 5 :PREMISES NIL)
+  (:CONCLUSION 7 :PREMISES (5 4))
+  (:CONCLUSION 6 :PREMISES (4 3))
+  (:CONCLUSION 8 :PREMISES (6))
+  (:CONCLUSION 9 :PREMISES (7))
+  (:CONCLUSION 10 :PREMISES (8))
+  (:CONCLUSION 11 :PREMISES (9))
+  (:CONCLUSION 12 :PREMISES (11 10))
+  (:CONCLUSION 13 :PREMISES (12 2)))
+ :INTERFACE
+ (:X
+  976
+  :Y
+  184
+  :WIDTH
+  832
+  :HEIGHT
+  591
+  :PROOF-SYSTEM
+  LOGIC::PROPOSITIONAL-CALCULUS))

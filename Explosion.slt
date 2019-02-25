@@ -1,0 +1,105 @@
+
+(:DESCRIPTIONS
+ ((:X
+   254
+   :Y
+   43
+   :ID
+   1
+   :NAME
+   "GIVEN"
+   :FORMULA
+   "(and \\phi (not \\phi))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   477
+   :Y
+   290
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "(and (not \\psi) (not \\phi))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   358
+   :Y
+   160
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "(not \\psi)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   626
+   :Y
+   165
+   :ID
+   3
+   :NAME
+   ""
+   :FORMULA
+   "(not \\phi)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   36
+   :Y
+   407
+   :ID
+   2
+   :NAME
+   ""
+   :FORMULA
+   "\\phi"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   324
+   :Y
+   431
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "(not \\phi)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   147
+   :Y
+   560
+   :ID
+   7
+   :NAME
+   "GOAL"
+   :FORMULA
+   "\\psi"
+   :JUSTIFICATION
+   LOGIC::NOT-ELIM))
+ :STRUCTURES
+ ((:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 5 :PREMISES (3 4))
+  (:CONCLUSION 4 :PREMISES NIL)
+  (:CONCLUSION 3 :PREMISES (1))
+  (:CONCLUSION 2 :PREMISES (1))
+  (:CONCLUSION 6 :PREMISES (5))
+  (:CONCLUSION 7 :PREMISES (6 2)))
+ :INTERFACE
+ (:X
+  1011
+  :Y
+  102
+  :WIDTH
+  749
+  :HEIGHT
+  749
+  :PROOF-SYSTEM
+  LOGIC::PROPOSITIONAL-CALCULUS))
