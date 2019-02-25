@@ -36,6 +36,7 @@
 |END EVENT|-|**TEST 1**|
 |kok31_13|[本页](kok31_13.slt)|**不包含在全部答案**，[感谢](https://www.reddit.com/r/intrologRPI/comments/882vrw/kok13_31/)|
 |RipsSays1|[本页](RipsSays1.slt)|全部作业答案中包含|
+|HypSyll|[本页](hypsyll.slt)|全部作业答案中包含|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
@@ -55,7 +56,6 @@
 |GreeCheeseMoon1|正在整理|~|
 |EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier|正在整理|~|
 |GreenCheeseMoon2|正在整理|~|
-|HypSyll|正在整理|~|
 |ImpossibilityNotObligatory|正在整理|~|
 |KnightKnave_SmullyanKKProblem1.3|正在整理|~|
 |LarryIsSomehowSmart|正在整理|~|
