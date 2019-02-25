@@ -25,8 +25,7 @@
 |NYS_3|[本页](NYS_3.slt)|全部作业答案中包含|
 |GreenCheeseMoon1|[本页](GreenCheeseMoon1.slt)|全部作业答案中包含|
 |Disj_Elim|[本页](Disj_Elim.slt)|全部作业答案中包含|
-|NYS3|[本页](NYS_3.slt)|全部作业答案中包含|
-|NYS1|[本页](NYS_1.slt)|全部作业答案中包含|
+|NYS_1|[本页](NYS_1.slt)|全部作业答案中包含|
 |BiconditionalIntroByChaining|[本页](BiconditionalIntroByChaining.slt)|**不包含在全部答案**|
 |tertium_n_datur|[本页](tertium_n_datur.slt)|全部作业答案中包含|
 |EVENT|-|**TEST 1**|
