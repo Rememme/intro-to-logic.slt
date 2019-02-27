@@ -1,0 +1,170 @@
+
+(:DESCRIPTIONS
+ ((:X
+   911
+   :Y
+   40
+   :ID
+   27
+   :NAME
+   "1"
+   :FORMULA
+   "\\phi"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   191
+   :Y
+   65
+   :ID
+   90
+   :NAME
+   "90"
+   :FORMULA
+   "\\phi"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   90
+   :Y
+   372
+   :ID
+   88
+   :NAME
+   "88"
+   :FORMULA
+   "\\psi"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   694
+   :Y
+   177
+   :ID
+   91
+   :NAME
+   "91"
+   :FORMULA
+   "\\psi"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   326
+   :Y
+   195
+   :ID
+   89
+   :NAME
+   "89"
+   :FORMULA
+   "(and \\phi \\psi )"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   457
+   :Y
+   165
+   :ID
+   92
+   :NAME
+   "92"
+   :FORMULA
+   "(if \\phi \\psi)"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   816
+   :Y
+   277
+   :ID
+   51
+   :NAME
+   "51"
+   :FORMULA
+   "(if (if \\phi \\psi) (if \\phi \\delta))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   549
+   :Y
+   302
+   :ID
+   93
+   :NAME
+   "93"
+   :FORMULA
+   "(if \\phi \\delta)"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   769
+   :Y
+   396
+   :ID
+   94
+   :NAME
+   "94"
+   :FORMULA
+   "\\delta"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   305
+   :Y
+   320
+   :ID
+   95
+   :NAME
+   "86"
+   :FORMULA
+   "(if \\psi \\delta)"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   378
+   :Y
+   369
+   :ID
+   86
+   :NAME
+   "86"
+   :FORMULA
+   "(if \\phi (if \\psi \\delta))"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   267
+   :Y
+   478
+   :ID
+   1
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(if (if (if \\phi \\psi) (if \\phi \\delta)) (if \\phi (if \\psi \\delta)))"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO))
+ :STRUCTURES
+ ((:CONCLUSION 27 :PREMISES NIL)
+  (:CONCLUSION 90 :PREMISES (89))
+  (:CONCLUSION 88 :PREMISES NIL)
+  (:CONCLUSION 91 :PREMISES (89))
+  (:CONCLUSION 89 :PREMISES (27 88))
+  (:CONCLUSION 92 :PREMISES (91))
+  (:CONCLUSION 51 :PREMISES NIL)
+  (:CONCLUSION 93 :PREMISES (51 92))
+  (:CONCLUSION 94 :PREMISES (90 93))
+  (:CONCLUSION 95 :PREMISES (94))
+  (:CONCLUSION 86 :PREMISES (95))
+  (:CONCLUSION 1 :PREMISES (86)))
+ :INTERFACE
+ (:X
+  0
+  :Y
+  0
+  :WIDTH
+  1000
+  :HEIGHT
+  800
+  :PROOF-SYSTEM
+  LOGIC::PROPOSITIONAL-CALCULUS))
