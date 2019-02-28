@@ -38,6 +38,7 @@
 |HypSyll|[本页](hypsyll.slt)|全部作业答案中包含|
 |kok31_13|[本页](kok31_13.slt)|**不包含在全部答案**，[感谢](https://www.reddit.com/r/intrologRPI/comments/882vrw/kok13_31/)|
 |RipsSays1|[本页](RipsSays1.slt)|全部作业答案中包含|
+|BogusBiconditional|[本页](BogusBiconditional.slt)|**不包含在全部答案**|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
