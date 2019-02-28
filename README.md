@@ -12,7 +12,9 @@
 
 ## 一对一
 
-添加微信`DeprecatedBot`一对一获得解答
+扫描或长按下方图片添加微信，或搜索`DeprecatedBot`一对一获得解答
+
+<img src="https://i.loli.net/2019/03/01/5c783ce4a1eb1.png" width=200/>
 
 ## Answers
 
