@@ -1,0 +1,222 @@
+
+(:DESCRIPTIONS
+ ((:X
+   1020
+   :Y
+   60
+   :ID
+   7
+   :NAME
+   "G7"
+   :FORMULA
+   "(forall (x) (if (R7 x) (R8 x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   1036
+   :Y
+   229
+   :ID
+   16
+   :NAME
+   "16"
+   :FORMULA
+   "(if (R7 x) (R8 x))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   6
+   :Y
+   67
+   :ID
+   1
+   :NAME
+   "G1"
+   :FORMULA
+   "(forall (x) (if (R1 x) (R2 x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   158
+   :Y
+   16
+   :ID
+   2
+   :NAME
+   "G2"
+   :FORMULA
+   "(forall (x) (if (R2 x) (R3 x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   279
+   :Y
+   74
+   :ID
+   3
+   :NAME
+   "G3"
+   :FORMULA
+   "(forall (x) (if (R3 x) (R4 x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   473
+   :Y
+   66
+   :ID
+   4
+   :NAME
+   "G4"
+   :FORMULA
+   "(forall (x) (if (R4 x) (R5 x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   651
+   :Y
+   94
+   :ID
+   5
+   :NAME
+   "G5"
+   :FORMULA
+   "(forall (x) (if (R5 x) (R6 x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   779
+   :Y
+   48
+   :ID
+   6
+   :NAME
+   "G6"
+   :FORMULA
+   "(forall (x) (if (R6 x) (R7 x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   836
+   :Y
+   193
+   :ID
+   15
+   :NAME
+   "15"
+   :FORMULA
+   "(if (R6 x) (R7 x))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   672
+   :Y
+   284
+   :ID
+   14
+   :NAME
+   "14"
+   :FORMULA
+   "(if (R5 x) (R6 x))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   518
+   :Y
+   205
+   :ID
+   13
+   :NAME
+   "13"
+   :FORMULA
+   "(if (R4 x) (R5 x))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   365
+   :Y
+   305
+   :ID
+   12
+   :NAME
+   "12"
+   :FORMULA
+   "(if (R3 x) (R4 x))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   306
+   :Y
+   207
+   :ID
+   11
+   :NAME
+   "11"
+   :FORMULA
+   "(if (R2 x) (R3 x))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   138
+   :Y
+   296
+   :ID
+   10
+   :NAME
+   "G1"
+   :FORMULA
+   " (if (R1 x) (R2 x))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   458
+   :Y
+   486
+   :ID
+   17
+   :NAME
+   "17"
+   :FORMULA
+   "(if (R1 x) (R8 x))"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   337
+   :Y
+   645
+   :ID
+   8
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(forall (x) (if (R1 x) (R8 x)))"
+   :JUSTIFICATION
+   LOGIC::FORALL-INTRO))
+ :STRUCTURES
+ ((:CONCLUSION 7 :PREMISES NIL)
+  (:CONCLUSION 16 :PREMISES (7))
+  (:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 2 :PREMISES NIL)
+  (:CONCLUSION 3 :PREMISES NIL)
+  (:CONCLUSION 4 :PREMISES NIL)
+  (:CONCLUSION 5 :PREMISES NIL)
+  (:CONCLUSION 6 :PREMISES NIL)
+  (:CONCLUSION 15 :PREMISES (6))
+  (:CONCLUSION 14 :PREMISES (5))
+  (:CONCLUSION 13 :PREMISES (4))
+  (:CONCLUSION 12 :PREMISES (3))
+  (:CONCLUSION 11 :PREMISES (2))
+  (:CONCLUSION 10 :PREMISES (1))
+  (:CONCLUSION 17 :PREMISES (16 15 14 13 12 11 10))
+  (:CONCLUSION 8 :PREMISES (17)))
+ :INTERFACE
+ (:X
+  0
+  :Y
+  0
+  :WIDTH
+  1000
+  :HEIGHT
+  800
+  :PROOF-SYSTEM
+  LOGIC::FIRST-ORDER-LOGIC))
