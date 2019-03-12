@@ -41,6 +41,9 @@
 |kok31_13|[本页](kok31_13.slt)|**不包含在全部答案**，[感谢](https://www.reddit.com/r/intrologRPI/comments/882vrw/kok13_31/)|
 |RipsSays1|[本页](RipsSays1.slt)|全部作业答案中包含|
 |BogusBiconditional|[本页](BogusBiconditional.slt)|**不包含在全部答案**|
+|ThxForThePCOracle|[本页](ThxForThePCOracle.slt)|**不包含在全部答案**|
+|Contrapositive_NYS_2|[本页](Contrapositive_NYS_2.slt)|**不包含在全部答案**|
+|MiracleOn34thStreet|Working on...|~|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
@@ -52,10 +55,8 @@
 |PA_20_GE_0|正在整理|~|
 |The_Dreadsbury_Mansion_Mystery1|正在整理|~|
 |AHappyThingLikesLarry|正在整理|~|
-|BogusBiconditional|正在整理|~|
 |CheatersNeverPropser|正在整理|~|
 |ChisholmsParadox|正在整理|~|
-|Contrapositive_NYS_2|正在整理|~|
 |Disj_Syll|正在整理|~|
 |GreeCheeseMoon1|正在整理|~|
 |EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier|正在整理|~|
@@ -63,7 +64,6 @@
 |ImpossibilityNotObligatory|正在整理|~|
 |KnightKnave_SmullyanKKProblem1.3|正在整理|~|
 |LarryIsSomehowSmart|正在整理|~|
-|MiracleOn34thStreet|正在整理|~|
 |Modus_Tollens|正在整理|~|
 |NoMoreThan3LazyLlamas|正在整理|~|
 |ObligatoryConjunction|正在整理|~|
@@ -72,7 +72,6 @@
 |PA_SOL_Test|正在整理|~|
 |QuantifierShift1|正在整理|~|
 |RussellsLetter2Frege|正在整理|~|
-|ThxForThePCOracle|正在整理|~|
 |luger|正在整理|~|
 |rainingSnowingProblem|正在整理|~|
 |test_NL|正在整理|~|
