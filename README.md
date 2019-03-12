@@ -10,11 +10,23 @@
 
 [reddit](https://www.reddit.com/r/intrologRPI/) 也有很多历史答案
 
+
 ## 一对一
 
 扫描或长按下方图片添加微信，或搜索`DeprecatedBot`一对一获得解答
 
-<img src="https://i.loli.net/2019/03/01/5c783ce4a1eb1.png" width=200/>
+<img src="https://user-images.githubusercontent.com/30525245/54166235-a7789400-443a-11e9-8567-ada97480d5cd.png" width=200/>
+
+## 打赏
+
+如果你觉得这些工作对你的学习/生活有帮助，不如打赏一下？
+
+<img src="https://user-images.githubusercontent.com/30525245/54166179-74ce9b80-443a-11e9-9593-dfdcda6f512a.jpg" width=200/>
+
+打赏内的备注将会列在下方：
+
+|金额|留言|
+|-|-|
 
 ## Answers
 
@@ -43,7 +55,7 @@
 |BogusBiconditional|[本页](BogusBiconditional.slt)|**不包含在全部答案**|
 |ThxForThePCOracle|[本页](ThxForThePCOracle.slt)|**不包含在全部答案**|
 |Contrapositive_NYS_2|[本页](Contrapositive_NYS_2.slt)|**不包含在全部答案**|
-|MiracleOn34thStreet|[本页](MiracleOn34thStreet.slt)|~|
+|MiracleOn34thStreet|[本页](MiracleOn34thStreet.slt)|**不包含在全部答案**|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
