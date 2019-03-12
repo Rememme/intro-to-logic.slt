@@ -43,7 +43,7 @@
 |BogusBiconditional|[本页](BogusBiconditional.slt)|**不包含在全部答案**|
 |ThxForThePCOracle|[本页](ThxForThePCOracle.slt)|**不包含在全部答案**|
 |Contrapositive_NYS_2|[本页](Contrapositive_NYS_2.slt)|**不包含在全部答案**|
-|MiracleOn34thStreet|Working on...|~|
+|MiracleOn34thStreet|[本页](MiracleOn34thStreet.slt)|~|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
