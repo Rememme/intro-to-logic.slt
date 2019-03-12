@@ -1,0 +1,92 @@
+
+(:DESCRIPTIONS
+ ((:X
+   474
+   :Y
+   93
+   :ID
+   8
+   :NAME
+   "8"
+   :FORMULA
+   "(= santa santa)"
+   :JUSTIFICATION
+   LOGIC::=-INTRO)
+  (:X
+   225
+   :Y
+   320
+   :ID
+   11
+   :NAME
+   "11"
+   :FORMULA
+   "(and (SpeaksDutch kris) (exists (x) (= x santa)))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   323
+   :Y
+   437
+   :ID
+   12
+   :NAME
+   "12"
+   :FORMULA
+   "(exists (x) (= x santa))"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   210
+   :Y
+   565
+   :ID
+   3
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(if (SpeaksDutch kris) (exists (x) (= x santa)))"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   472
+   :Y
+   212
+   :ID
+   6
+   :NAME
+   "6"
+   :FORMULA
+   "(exists (x) (= x santa))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-INTRO)
+  (:X
+   190
+   :Y
+   92
+   :ID
+   10
+   :NAME
+   "10"
+   :FORMULA
+   "(SpeaksDutch kris)"
+   :JUSTIFICATION
+   LOGIC::ASSUME))
+ :STRUCTURES
+ ((:CONCLUSION 8 :PREMISES NIL)
+  (:CONCLUSION 11 :PREMISES (10 6))
+  (:CONCLUSION 12 :PREMISES (11))
+  (:CONCLUSION 3 :PREMISES (12))
+  (:CONCLUSION 6 :PREMISES (8))
+  (:CONCLUSION 10 :PREMISES NIL))
+ :INTERFACE
+ (:X
+  0
+  :Y
+  0
+  :WIDTH
+  1000
+  :HEIGHT
+  800
+  :PROOF-SYSTEM
+  LOGIC::FIRST-ORDER-LOGIC))
