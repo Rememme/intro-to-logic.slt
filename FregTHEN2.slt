@@ -1,0 +1,196 @@
+
+(:DESCRIPTIONS
+ ((:X
+   152
+   :Y
+   38
+   :ID
+   4
+   :NAME
+   "4"
+   :FORMULA
+   "P"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   341
+   :Y
+   37
+   :ID
+   3
+   :NAME
+   "3"
+   :FORMULA
+   "(if P (if Q R))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   318
+   :Y
+   447
+   :ID
+   9
+   :NAME
+   ""
+   :FORMULA
+   "Q"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   155
+   :Y
+   667
+   :ID
+   12
+   :NAME
+   ""
+   :FORMULA
+   "(and (if P R) (if P Q))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   208
+   :Y
+   762
+   :ID
+   13
+   :NAME
+   ""
+   :FORMULA
+   "(if P R)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   175
+   :Y
+   438
+   :ID
+   7
+   :NAME
+   ""
+   :FORMULA
+   "(if P R)"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   298
+   :Y
+   565
+   :ID
+   10
+   :NAME
+   ""
+   :FORMULA
+   "(if P Q)"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   265
+   :Y
+   188
+   :ID
+   5
+   :NAME
+   "5"
+   :FORMULA
+   "(if Q R)"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   151
+   :Y
+   878
+   :ID
+   11
+   :NAME
+   ""
+   :FORMULA
+   "(if (if P Q) (if P R))"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   60
+   :Y
+   998
+   :ID
+   1
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(if (if P (if Q R)) (if (if P Q) (if P R)))"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   307
+   :Y
+   319
+   :ID
+   8
+   :NAME
+   ""
+   :FORMULA
+   "(and P Q)"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   175
+   :Y
+   322
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "R"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   114
+   :Y
+   213
+   :ID
+   15
+   :NAME
+   ""
+   :FORMULA
+   "Q"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   9
+   :Y
+   37
+   :ID
+   14
+   :NAME
+   ""
+   :FORMULA
+   "(if P Q)"
+   :JUSTIFICATION
+   LOGIC::ASSUME))
+ :STRUCTURES
+ ((:CONCLUSION 4 :PREMISES NIL)
+  (:CONCLUSION 3 :PREMISES NIL)
+  (:CONCLUSION 9 :PREMISES (8))
+  (:CONCLUSION 12 :PREMISES (7 10))
+  (:CONCLUSION 13 :PREMISES (12))
+  (:CONCLUSION 7 :PREMISES (6))
+  (:CONCLUSION 10 :PREMISES (9))
+  (:CONCLUSION 5 :PREMISES (4 3))
+  (:CONCLUSION 11 :PREMISES (13))
+  (:CONCLUSION 1 :PREMISES (11))
+  (:CONCLUSION 8 :PREMISES NIL)
+  (:CONCLUSION 6 :PREMISES (15 5))
+  (:CONCLUSION 15 :PREMISES (4 14))
+  (:CONCLUSION 14 :PREMISES NIL))
+ :INTERFACE
+ (:X
+  0
+  :Y
+  0
+  :WIDTH
+  1000
+  :HEIGHT
+  800
+  :PROOF-SYSTEM
+  LOGIC::PROPOSITIONAL-CALCULUS))
