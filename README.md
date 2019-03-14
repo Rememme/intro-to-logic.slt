@@ -8,7 +8,9 @@
 
 ## 提示
 
-[reddit](https://www.reddit.com/r/intrologRPI/) 也有很多历史答案
+- [reddit](https://www.reddit.com/r/intrologRPI/) 也有很多历史答案
+
+- [符号对照表](/symbols.md)
 
 
 ## 一对一
