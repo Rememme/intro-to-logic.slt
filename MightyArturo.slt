@@ -1,0 +1,241 @@
+
+(:DESCRIPTIONS
+ ((:X
+   718
+   :Y
+   552
+   :ID
+   1
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(exists (x) (if (and (Llama x) (= x arturo))
+                       (forall y (Llama y))))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-INTRO)
+  (:X
+   831
+   :Y
+   27
+   :ID
+   2
+   :NAME
+   ""
+   :FORMULA
+   "(and (Llama x) (= x arturo))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   1233
+   :Y
+   408
+   :ID
+   7
+   :NAME
+   ""
+   :FORMULA
+   "(exists x (not (Llama x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   461
+   :Y
+   28
+   :ID
+   15
+   :NAME
+   ""
+   :FORMULA
+   "(not (Llama x))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   511
+   :Y
+   814
+   :ID
+   14
+   :NAME
+   ""
+   :FORMULA
+   "(exists (x) (if (and (Llama x) (= x arturo))
+                       (forall y (Llama y))))"
+   :JUSTIFICATION
+   LOGIC::OR-ELIM)
+  (:X
+   496
+   :Y
+   265
+   :ID
+   13
+   :NAME
+   ""
+   :FORMULA
+   "(or (exists x (not (Llama x))) (not (exists x (not (Llama x)))))"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   193
+   :Y
+   290
+   :ID
+   17
+   :NAME
+   ""
+   :FORMULA
+   "(Llama x)"
+   :JUSTIFICATION
+   LOGIC::NOT-ELIM)
+  (:X
+   623
+   :Y
+   116
+   :ID
+   9
+   :NAME
+   ""
+   :FORMULA
+   "(not (exists x (not (Llama x))))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   319
+   :Y
+   139
+   :ID
+   16
+   :NAME
+   ""
+   :FORMULA
+   "(exists x (not (Llama x)))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-INTRO)
+  (:X
+   1047
+   :Y
+   149
+   :ID
+   3
+   :NAME
+   ""
+   :FORMULA
+   "(Llama x)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   832
+   :Y
+   148
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "(not (Llama x))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   779
+   :Y
+   413
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "(if (and (Llama x) (= x arturo))
+                       (forall y (Llama y)))"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   946
+   :Y
+   278
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "(forall y (Llama y))"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   245
+   :Y
+   526
+   :ID
+   11
+   :NAME
+   ""
+   :FORMULA
+   "(if (and (Llama x) (= x arturo))
+                       (forall y (Llama y)))"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   297
+   :Y
+   679
+   :ID
+   12
+   :NAME
+   ""
+   :FORMULA
+   "(exists (x) (if (and (Llama x) (= x arturo))
+                       (forall y (Llama y))))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-INTRO)
+  (:X
+   852
+   :Y
+   668
+   :ID
+   8
+   :NAME
+   ""
+   :FORMULA
+   "(exists (x) (if (and (Llama x) (= x arturo))
+                       (forall y (Llama y))))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-ELIM)
+  (:X
+   265
+   :Y
+   404
+   :ID
+   10
+   :NAME
+   ""
+   :FORMULA
+   "(forall y (Llama y))"
+   :JUSTIFICATION
+   LOGIC::FORALL-INTRO))
+ :STRUCTURES
+ ((:CONCLUSION 1 :PREMISES (6))
+  (:CONCLUSION 2 :PREMISES NIL)
+  (:CONCLUSION 7 :PREMISES NIL)
+  (:CONCLUSION 15 :PREMISES NIL)
+  (:CONCLUSION 14 :PREMISES (8 12 13))
+  (:CONCLUSION 13 :PREMISES NIL)
+  (:CONCLUSION 17 :PREMISES (16 9))
+  (:CONCLUSION 9 :PREMISES NIL)
+  (:CONCLUSION 16 :PREMISES (15))
+  (:CONCLUSION 3 :PREMISES (2))
+  (:CONCLUSION 4 :PREMISES NIL)
+  (:CONCLUSION 6 :PREMISES (5))
+  (:CONCLUSION 5 :PREMISES (4 3))
+  (:CONCLUSION 11 :PREMISES (10))
+  (:CONCLUSION 12 :PREMISES (11))
+  (:CONCLUSION 8 :PREMISES (7 1))
+  (:CONCLUSION 10 :PREMISES (17)))
+ :INTERFACE
+ (:X
+  59
+  :Y
+  3
+  :WIDTH
+  1536
+  :HEIGHT
+  781
+  :PROOF-SYSTEM
+  LOGIC::FIRST-ORDER-LOGIC))
