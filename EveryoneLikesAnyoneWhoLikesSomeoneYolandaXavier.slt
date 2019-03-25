@@ -1,0 +1,171 @@
+
+(:DESCRIPTIONS
+ ((:X
+   421
+   :Y
+   21
+   :ID
+   3
+   :NAME
+   "GIVEN 2"
+   :FORMULA
+   "(forall (x y) (if (exists z (Likes y z)) 
+                        (Likes x y)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   428
+   :Y
+   603
+   :ID
+   2
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(Likes yolanda xavier)"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   27
+   :Y
+   5
+   :ID
+   1
+   :NAME
+   "GIVEN 1"
+   :FORMULA
+   "(Likes alvin bill)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   70
+   :Y
+   119
+   :ID
+   11
+   :NAME
+   ""
+   :FORMULA
+   "(exists z (Likes alvin z))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-INTRO)
+  (:X
+   260
+   :Y
+   127
+   :ID
+   8
+   :NAME
+   ""
+   :FORMULA
+   "(forall y(if (exists z (Likes y z)) (Likes xavier y)))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   629
+   :Y
+   154
+   :ID
+   7
+   :NAME
+   ""
+   :FORMULA
+   "(forall y (if (exists z (Likes y z)) (Likes new y)))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   248
+   :Y
+   220
+   :ID
+   9
+   :NAME
+   ""
+   :FORMULA
+   "(if(exists z (Likes alvin z)) (Likes xavier alvin))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   567
+   :Y
+   272
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "(if (exists z (Likes xavier z)) (Likes new xavier))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   196
+   :Y
+   345
+   :ID
+   10
+   :NAME
+   ""
+   :FORMULA
+   "(Likes xavier alvin)"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   164
+   :Y
+   433
+   :ID
+   12
+   :NAME
+   ""
+   :FORMULA
+   "(exists z (Likes xavier z))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-INTRO)
+  (:X
+   443
+   :Y
+   373
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "(Likes new xavier)"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   445
+   :Y
+   488
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "(forall x (Likes x xavier))"
+   :JUSTIFICATION
+   LOGIC::FORALL-INTRO))
+ :STRUCTURES
+ ((:CONCLUSION 3 :PREMISES NIL)
+  (:CONCLUSION 2 :PREMISES (4))
+  (:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 11 :PREMISES (1))
+  (:CONCLUSION 8 :PREMISES (3))
+  (:CONCLUSION 7 :PREMISES (3))
+  (:CONCLUSION 9 :PREMISES (8))
+  (:CONCLUSION 6 :PREMISES (7))
+  (:CONCLUSION 10 :PREMISES (11 9))
+  (:CONCLUSION 12 :PREMISES (10))
+  (:CONCLUSION 5 :PREMISES (12 6))
+  (:CONCLUSION 4 :PREMISES (5)))
+ :INTERFACE
+ (:X
+  490
+  :Y
+  105
+  :WIDTH
+  969
+  :HEIGHT
+  622
+  :PROOF-SYSTEM
+  LOGIC::FIRST-ORDER-LOGIC))
