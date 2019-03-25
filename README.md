@@ -60,6 +60,12 @@
 |Contrapositive_NYS_2|[本页](Contrapositive_NYS_2.slt)|**不包含在全部答案**|
 |MiracleOn34thStreet|[本页](MiracleOn34thStreet.slt)|**不包含在全部答案**|
 |FregTHEN2|[本页](FregTHEN2.slt)|**POP QUIZ**|
+|CheatersNeverPropser|Working|~|
+|ChimericalBarber|Working|~|
+|EVENT|-|**TEST 2**|
+|EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier|Working|~|
+|MightyArturo|Working|~|
+|END EVENT|-|**TEST 2**|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
@@ -71,11 +77,8 @@
 |PA_20_GE_0|正在整理|~|
 |The_Dreadsbury_Mansion_Mystery1|正在整理|~|
 |AHappyThingLikesLarry|正在整理|~|
-|CheatersNeverPropser|正在整理|~|
 |ChisholmsParadox|正在整理|~|
 |Disj_Syll|正在整理|~|
-|GreeCheeseMoon1|正在整理|~|
-|EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier|正在整理|~|
 |GreenCheeseMoon2|正在整理|~|
 |ImpossibilityNotObligatory|正在整理|~|
 |KnightKnave_SmullyanKKProblem1.3|正在整理|~|
@@ -94,6 +97,4 @@
 |OnlyMediumOrLargeLlamas|正在整理|~|
 |Coq1|正在整理|~|
 |kok13_28|正在整理|~|
-|ChimericalBarber|正在整理|~|
-|MightyArturo|正在整理|~|
 |RipsSaysNo2|正在整理|~|
