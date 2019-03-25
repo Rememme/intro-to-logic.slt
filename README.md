@@ -61,7 +61,9 @@
 |MiracleOn34thStreet|[本页](MiracleOn34thStreet.slt)|**不包含在全部答案**|
 |FregTHEN2|[本页](FregTHEN2.slt)|**POP QUIZ**|
 |CheatersNeverPropser|Working|~|
-|ChimericalBarber|Working|~|
+|ChimericalBarber|[本页](ChimericalBarber.slt)|~|
+|RussellsLetter2Frege|Working|Bonus|
+|OnlyMediumOrLargeLlamas|[本页](OnlyMediumOrLargeLlamas.slt)|~|
 |EVENT|-|**TEST 2**|
 |EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier|[本页](EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier.slt)|~|
 |MightyArturo|[本页](MightyArturo.slt)|~|
@@ -90,11 +92,9 @@
 |PA_12_GE_0|正在整理|~|
 |PA_SOL_Test|正在整理|~|
 |QuantifierShift1|正在整理|~|
-|RussellsLetter2Frege|正在整理|~|
 |luger|正在整理|~|
 |rainingSnowingProblem|正在整理|~|
 |test_NL|正在整理|~|
-|OnlyMediumOrLargeLlamas|正在整理|~|
 |Coq1|正在整理|~|
 |kok13_28|正在整理|~|
 |RipsSaysNo2|正在整理|~|
