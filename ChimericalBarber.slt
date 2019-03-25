@@ -1,0 +1,261 @@
+
+(:DESCRIPTIONS
+ ((:X
+   421
+   :Y
+   956
+   :ID
+   17
+   :NAME
+   ""
+   :FORMULA
+   "(and \\zeta (not \\zeta))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-ELIM)
+  (:X
+   266
+   :Y
+   1161
+   :ID
+   18
+   :NAME
+   ""
+   :FORMULA
+   "(and \\zeta (not \\zeta))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-ELIM)
+  (:X
+   224
+   :Y
+   1016
+   :ID
+   1
+   :NAME
+   "GIVEN"
+   :FORMULA
+   "(exists (x z) (and (BarberOf x z) (Town z) (ManOf x z) (forall (y) (if (ManOf y z) (iff (Shaves x y) (not (Shaves y y)))))))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   34
+   :Y
+   27
+   :ID
+   3
+   :NAME
+   ""
+   :FORMULA
+   " (and (BarberOf a b) (Town b) (ManOf a b) (forall (y) (if (ManOf y b) (iff (Shaves a y) (not (Shaves y y))))))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   94
+   :Y
+   167
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "(ManOf a b)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   490
+   :Y
+   162
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "(forall (y) (if (ManOf y b) (iff (Shaves a y) (not (Shaves y y)))))"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   521
+   :Y
+   248
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "(if (ManOf a b) (iff (Shaves a a) (not (Shaves a a))))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   26
+   :Y
+   391
+   :ID
+   8
+   :NAME
+   ""
+   :FORMULA
+   "(Shaves a a)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   222
+   :Y
+   343
+   :ID
+   7
+   :NAME
+   ""
+   :FORMULA
+   "(iff (Shaves a a) (not (Shaves a a)))"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   771
+   :Y
+   348
+   :ID
+   9
+   :NAME
+   ""
+   :FORMULA
+   " (not (Shaves a a))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   504
+   :Y
+   478
+   :ID
+   11
+   :NAME
+   ""
+   :FORMULA
+   "(Shaves a a)"
+   :JUSTIFICATION
+   LOGIC::IFF-ELIM)
+  (:X
+   602
+   :Y
+   591
+   :ID
+   12
+   :NAME
+   ""
+   :FORMULA
+   "(Shaves a a)"
+   :JUSTIFICATION
+   LOGIC::NOT-ELIM)
+  (:X
+   219
+   :Y
+   483
+   :ID
+   10
+   :NAME
+   ""
+   :FORMULA
+   " (not (Shaves a a))"
+   :JUSTIFICATION
+   LOGIC::IFF-ELIM)
+  (:X
+   130
+   :Y
+   596
+   :ID
+   13
+   :NAME
+   ""
+   :FORMULA
+   " (not (Shaves a a))"
+   :JUSTIFICATION
+   LOGIC::NOT-INTRO)
+  (:X
+   730
+   :Y
+   660
+   :ID
+   15
+   :NAME
+   ""
+   :FORMULA
+   "(and(not (and \\zeta (not \\zeta)))(Shaves a a))"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   0
+   :Y
+   682
+   :ID
+   19
+   :NAME
+   ""
+   :FORMULA
+   "(exists (z) (and (BarberOf a z) (Town z) (ManOf a z) (forall (y) (if (ManOf y z) (iff (Shaves a y) (not (Shaves y y)))))))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   754
+   :Y
+   789
+   :ID
+   16
+   :NAME
+   ""
+   :FORMULA
+   "(Shaves a a)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   590
+   :Y
+   885
+   :ID
+   2
+   :NAME
+   "FALSUM"
+   :FORMULA
+   "(and \\zeta (not \\zeta))"
+   :JUSTIFICATION
+   LOGIC::NOT-ELIM)
+  (:X
+   816
+   :Y
+   546
+   :ID
+   14
+   :NAME
+   ""
+   :FORMULA
+   "(not (and \\zeta (not \\zeta)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME))
+ :STRUCTURES
+ ((:CONCLUSION 17 :PREMISES (2 19))
+  (:CONCLUSION 18 :PREMISES (1 17))
+  (:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 3 :PREMISES NIL)
+  (:CONCLUSION 4 :PREMISES (3))
+  (:CONCLUSION 5 :PREMISES (3))
+  (:CONCLUSION 6 :PREMISES (5))
+  (:CONCLUSION 8 :PREMISES NIL)
+  (:CONCLUSION 7 :PREMISES (6 4))
+  (:CONCLUSION 9 :PREMISES NIL)
+  (:CONCLUSION 11 :PREMISES (9 7))
+  (:CONCLUSION 12 :PREMISES (11 9))
+  (:CONCLUSION 10 :PREMISES (8 7))
+  (:CONCLUSION 13 :PREMISES (10 8))
+  (:CONCLUSION 15 :PREMISES (12 14))
+  (:CONCLUSION 19 :PREMISES NIL)
+  (:CONCLUSION 16 :PREMISES (15))
+  (:CONCLUSION 2 :PREMISES (16 13))
+  (:CONCLUSION 14 :PREMISES NIL))
+ :INTERFACE
+ (:X
+  11
+  :Y
+  0
+  :WIDTH
+  1022
+  :HEIGHT
+  772
+  :PROOF-SYSTEM
+  LOGIC::FIRST-ORDER-LOGIC))
