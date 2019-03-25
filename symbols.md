@@ -35,7 +35,7 @@ SpeaksDutch(kris)
 |-|-|
 |φ|\phi|
 |ψ|\psi|
-
+|ζ|\zeta|
 
 ## 小提示
 
