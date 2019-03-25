@@ -63,8 +63,8 @@
 |CheatersNeverPropser|Working|~|
 |ChimericalBarber|Working|~|
 |EVENT|-|**TEST 2**|
-|EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier|Working|~|
-|MightyArturo|Working|~|
+|EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier|[本页](EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier.slt)|~|
+|MightyArturo|[本页](MightyArturo.slt)|~|
 |END EVENT|-|**TEST 2**|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
