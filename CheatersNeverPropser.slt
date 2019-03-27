@@ -1,0 +1,222 @@
+
+(:DESCRIPTIONS
+ ((:X
+   661
+   :Y
+   540
+   :ID
+   11
+   :NAME
+   "11"
+   :FORMULA
+   "(and \\zeta (not \\zeta))"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   670
+   :Y
+   774
+   :ID
+   16
+   :NAME
+   "16"
+   :FORMULA
+   "(and \\zeta (not \\zeta))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-ELIM)
+  (:X
+   658
+   :Y
+   657
+   :ID
+   12
+   :NAME
+   "12"
+   :FORMULA
+   "(and \\zeta (not \\zeta))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-ELIM)
+  (:X
+   503
+   :Y
+   891
+   :ID
+   18
+   :NAME
+   "18"
+   :FORMULA
+   "(and \\zeta (not \\zeta))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-ELIM)
+  (:X
+   429
+   :Y
+   1022
+   :ID
+   19
+   :NAME
+   "19"
+   :FORMULA
+   "\\zeta"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   642
+   :Y
+   1023
+   :ID
+   20
+   :NAME
+   "20"
+   :FORMULA
+   "(not \\zeta)"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   291
+   :Y
+   1158
+   :ID
+   1
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(not (exists (t1 t2 s) (and (< t1 t2) (Cheats s reddit t1) (Prospers s t2) )))"
+   :JUSTIFICATION
+   LOGIC::NOT-INTRO)
+  (:X
+   0
+   :Y
+   759
+   :ID
+   17
+   :NAME
+   "17"
+   :FORMULA
+   "(exists (t1 t2 s) (and (< t1 t2) (Cheats s reddit t1) (Prospers s t2) ))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   0
+   :Y
+   661
+   :ID
+   15
+   :NAME
+   "15"
+   :FORMULA
+   "(exists (t2 s) (and (< t1w t2) (Cheats s reddit t1w) (Prospers s t2) ))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   0
+   :Y
+   567
+   :ID
+   14
+   :NAME
+   "14"
+   :FORMULA
+   "(exists (s) (and (< t1w t2w) (Cheats s reddit t1w) (Prospers s t2w) ))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   516
+   :Y
+   259
+   :ID
+   8
+   :NAME
+   "8"
+   :FORMULA
+   "(and (< t1w t2w) (Cheats sw reddit t1w) (Prospers sw t2w)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   73
+   :Y
+   438
+   :ID
+   10
+   :NAME
+   "10"
+   :FORMULA
+   "(if (< t1w t2w) (not (Prospers sw t2w)))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   114
+   :Y
+   310
+   :ID
+   9
+   :NAME
+   "9"
+   :FORMULA
+   "(forall (tp) (if (< t1w tp) (not (Prospers sw tp))))"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   49
+   :Y
+   191
+   :ID
+   7
+   :NAME
+   "7"
+   :FORMULA
+   "(if (Cheats sw reddit t1w) (forall (tp) (if (< t1w tp) (not (Prospers sw tp)))))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   37
+   :Y
+   124
+   :ID
+   6
+   :NAME
+   "6"
+   :FORMULA
+   "(forall (t) (if (Cheats sw reddit t) (forall (tp) (if (< t tp) (not (Prospers sw tp))))))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   21
+   :Y
+   27
+   :ID
+   2
+   :NAME
+   "AXIOM 1"
+   :FORMULA
+   "(forall (s t) (if (Cheats s reddit t) (forall (tp) (if (< t tp) (not (Prospers s tp))))))"
+   :JUSTIFICATION
+   LOGIC::ASSUME))
+ :STRUCTURES
+ ((:CONCLUSION 11 :PREMISES (8 10))
+  (:CONCLUSION 16 :PREMISES (12 15))
+  (:CONCLUSION 12 :PREMISES (14 11))
+  (:CONCLUSION 18 :PREMISES (17 16))
+  (:CONCLUSION 19 :PREMISES (18))
+  (:CONCLUSION 20 :PREMISES (18))
+  (:CONCLUSION 1 :PREMISES (19 20))
+  (:CONCLUSION 17 :PREMISES NIL)
+  (:CONCLUSION 15 :PREMISES NIL)
+  (:CONCLUSION 14 :PREMISES NIL)
+  (:CONCLUSION 8 :PREMISES NIL)
+  (:CONCLUSION 10 :PREMISES (9))
+  (:CONCLUSION 9 :PREMISES (7 8))
+  (:CONCLUSION 7 :PREMISES (6))
+  (:CONCLUSION 6 :PREMISES (2))
+  (:CONCLUSION 2 :PREMISES NIL))
+ :INTERFACE
+ (:X
+  0
+  :Y
+  0
+  :WIDTH
+  1536
+  :HEIGHT
+  781
+  :PROOF-SYSTEM
+  LOGIC::FIRST-ORDER-LOGIC))
