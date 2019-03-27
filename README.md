@@ -61,12 +61,12 @@
 |MiracleOn34thStreet|[本页](MiracleOn34thStreet.slt)|**不包含在全部答案**|
 |FregTHEN2|[本页](FregTHEN2.slt)|**POP QUIZ**|
 |CheatersNeverPropser|Working|~|
-|ChimericalBarber|[本页](ChimericalBarber.slt)|~|
-|RussellsLetter2Frege|Working|Bonus|
-|OnlyMediumOrLargeLlamas|[本页](OnlyMediumOrLargeLlamas.slt)|~|
+|ChimericalBarber|[本页](ChimericalBarber.slt)|包含在全部答案中|
+|RussellsLetter2Frege|[本页](RussellsLetter2Frege.slt)|Bonus|
+|OnlyMediumOrLargeLlamas|[本页](OnlyMediumOrLargeLlamas.slt)|包含在全部答案中|
 |EVENT|-|**TEST 2**|
-|EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier|[本页](EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier.slt)|~|
-|MightyArturo|[本页](MightyArturo.slt)|~|
+|EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier|[本页](EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier.slt)|包含在全部答案中|
+|MightyArturo|[本页](MightyArturo.slt)|包含在全部答案中|
 |END EVENT|-|**TEST 2**|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
