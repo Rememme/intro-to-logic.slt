@@ -60,7 +60,7 @@
 |Contrapositive_NYS_2|[本页](Contrapositive_NYS_2.slt)|**不包含在全部答案**|
 |MiracleOn34thStreet|[本页](MiracleOn34thStreet.slt)|**不包含在全部答案**|
 |FregTHEN2|[本页](FregTHEN2.slt)|**POP QUIZ**|
-|CheatersNeverPropser|(CheatersNeverPropser.slt)|Origin File is Broken|
+|CheatersNeverPropser|[本页](CheatersNeverPropser.slt)|Origin File is Broken|
 |ChimericalBarber|[本页](ChimericalBarber.slt)|包含在全部答案中|
 |RussellsLetter2Frege|[本页](RussellsLetter2Frege.slt)|Bonus|
 |OnlyMediumOrLargeLlamas|[本页](OnlyMediumOrLargeLlamas.slt)|包含在全部答案中|
