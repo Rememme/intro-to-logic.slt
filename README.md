@@ -67,6 +67,7 @@
 |EVENT|-|**TEST 2**|
 |EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier|[本页](EveryoneLikesAnyoneWhoLikesSomeoneYolandaXavier.slt)|包含在全部答案中|
 |MightyArturo|[本页](MightyArturo.slt)|包含在全部答案中|
+|AlienAbsorption|Working|~|
 |END EVENT|-|**TEST 2**|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
