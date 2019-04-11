@@ -1,0 +1,109 @@
+
+(:DESCRIPTIONS
+ ((:X
+   452
+   :Y
+   115
+   :ID
+   2
+   :NAME
+   ""
+   :FORMULA
+   "(and ( nec \\phi) (pos \\psi))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   369
+   :Y
+   227
+   :ID
+   3
+   :NAME
+   ""
+   :FORMULA
+   "(nec \\phi)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   586
+   :Y
+   223
+   :ID
+   7
+   :NAME
+   ""
+   :FORMULA
+   "(pos \\psi)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   359
+   :Y
+   329
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "\\phi"
+   :JUSTIFICATION
+   LOGIC::NEC-ELIM)
+  (:X
+   220
+   :Y
+   327
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "\\psi"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   296
+   :Y
+   455
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "(and \\phi \\psi)"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   426
+   :Y
+   551
+   :ID
+   8
+   :NAME
+   ""
+   :FORMULA
+   "(pos (and \\phi \\psi))"
+   :JUSTIFICATION
+   LOGIC::POS-ELIM)
+  (:X
+   343
+   :Y
+   661
+   :ID
+   1
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(if (and (nec \\phi) (pos \\psi)) (pos (and \\phi \\psi)))"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO))
+ :STRUCTURES
+ ((:CONCLUSION 2 :PREMISES NIL)
+  (:CONCLUSION 3 :PREMISES (2))
+  (:CONCLUSION 7 :PREMISES (2))
+  (:CONCLUSION 5 :PREMISES (3))
+  (:CONCLUSION 4 :PREMISES NIL)
+  (:CONCLUSION 6 :PREMISES (5 4))
+  (:CONCLUSION 8 :PREMISES (7 6))
+  (:CONCLUSION 1 :PREMISES (8)))
+ :INTERFACE
+ (:X 0 :Y 0 :WIDTH 766 :HEIGHT 772 :PROOF-SYSTEM LOGIC::M))
