@@ -71,16 +71,16 @@
 |END EVENT|-|**TEST 2**|
 |Lp_and_Mp_implies_M-p_and_q|[本页](Lp_and_Mp_implies_M-p_and_q.slt)|包含在全部答案中|
 |DoubleMindedMan1|Working|Bonus Qs|
+|TheFreeChoicePermissionParadox|[本页](TheFreeChoicePermissionParadox.slt)|包含在全部答案中|
+|ObligatoryObligationsImplyPermissibleObligations|[本页](ObligatoryObligationsImplyPermissibleObligations.slt)|包含在全部答案中|
+|ChisholmsParadox|[本页](ChisholmsParadox.slt)|全部答案中文件损坏|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
 |NotOb-ObPandQ_and_ObPimpliesnotQ|正在整理|~|
-|ObligatoryObligationsImplyPermissibleObligations|正在整理|~|
-|TheFreeChoicePermissionParadox|正在整理|~|
 |PA_20_GE_0|正在整理|~|
 |The_Dreadsbury_Mansion_Mystery1|正在整理|~|
 |AHappyThingLikesLarry|正在整理|~|
-|ChisholmsParadox|正在整理|~|
 |Disj_Syll|正在整理|~|
 |GreenCheeseMoon2|正在整理|~|
 |ImpossibilityNotObligatory|正在整理|~|
