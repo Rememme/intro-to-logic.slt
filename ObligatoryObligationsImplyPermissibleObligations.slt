@@ -1,0 +1,83 @@
+
+(:DESCRIPTIONS
+ ((:X
+   68
+   :Y
+   31
+   :ID
+   2
+   :NAME
+   ""
+   :FORMULA
+   "(nec ( nec \\phi))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   266
+   :Y
+   134
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "(nec \\phi)"
+   :JUSTIFICATION
+   LOGIC::NEC-ELIM)
+  (:X
+   80
+   :Y
+   241
+   :ID
+   3
+   :NAME
+   ""
+   :FORMULA
+   "\\phi"
+   :JUSTIFICATION
+   LOGIC::NEC-ELIM)
+  (:X
+   304
+   :Y
+   352
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "(pos \\phi)"
+   :JUSTIFICATION
+   LOGIC::POS-INTRO)
+  (:X
+   56
+   :Y
+   443
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "(nec ( pos \\phi))"
+   :JUSTIFICATION
+   LOGIC::NEC-INTRO)
+  (:X
+   256
+   :Y
+   552
+   :ID
+   1
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(if (nec (nec \\phi)) (nec (pos \\phi)))"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO))
+ :STRUCTURES
+ ((:CONCLUSION 2 :PREMISES NIL)
+  (:CONCLUSION 6 :PREMISES (2))
+  (:CONCLUSION 3 :PREMISES (6))
+  (:CONCLUSION 4 :PREMISES (3))
+  (:CONCLUSION 5 :PREMISES (4))
+  (:CONCLUSION 1 :PREMISES (5)))
+ :INTERFACE
+ (:X 251 :Y 169 :WIDTH 530 :HEIGHT 687 :PROOF-SYSTEM LOGIC::D))

@@ -1,0 +1,109 @@
+
+(:DESCRIPTIONS
+ ((:X
+   433
+   :Y
+   270
+   :ID
+   6
+   :NAME
+   ""
+   :FORMULA
+   "(pos (or \\phi \\psi))"
+   :JUSTIFICATION
+   LOGIC::POS-ELIM)
+  (:X
+   529
+   :Y
+   144
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "(or \\phi \\psi)"
+   :JUSTIFICATION
+   LOGIC::OR-INTRO)
+  (:X
+   520
+   :Y
+   45
+   :ID
+   3
+   :NAME
+   ""
+   :FORMULA
+   "\\phi"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   349
+   :Y
+   145
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "(pos \\phi)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   95
+   :Y
+   271
+   :ID
+   1
+   :NAME
+   "NEW SCHEMA? (GIVEN)"
+   :FORMULA
+   "(if (pos (or \\phi \\psi)) (and (pos \\phi) (pos \\psi)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   295
+   :Y
+   387
+   :ID
+   7
+   :NAME
+   ""
+   :FORMULA
+   "(and (pos \\phi) (pos \\psi))"
+   :JUSTIFICATION
+   LOGIC::IF-ELIM)
+  (:X
+   294
+   :Y
+   481
+   :ID
+   8
+   :NAME
+   ""
+   :FORMULA
+   "(pos \\psi)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   299
+   :Y
+   586
+   :ID
+   2
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(if (pos \\phi) (pos \\psi))"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO))
+ :STRUCTURES
+ ((:CONCLUSION 6 :PREMISES (5 4))
+  (:CONCLUSION 4 :PREMISES (3))
+  (:CONCLUSION 3 :PREMISES NIL)
+  (:CONCLUSION 5 :PREMISES NIL)
+  (:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 7 :PREMISES (1 6))
+  (:CONCLUSION 8 :PREMISES (7))
+  (:CONCLUSION 2 :PREMISES (8)))
+ :INTERFACE
+ (:X 28 :Y 0 :WIDTH 841 :HEIGHT 701 :PROOF-SYSTEM LOGIC::D))
