@@ -1,0 +1,122 @@
+
+(:DESCRIPTIONS
+ ((:X
+   239
+   :Y
+   69
+   :ID
+   2
+   :NAME
+   "GIVEN B"
+   :FORMULA
+   "(nec (if g t))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   270
+   :Y
+   327
+   :ID
+   10
+   :NAME
+   "10"
+   :FORMULA
+   "(if g t)"
+   :JUSTIFICATION
+   LOGIC::NEC-ELIM)
+  (:X
+   78
+   :Y
+   251
+   :ID
+   7
+   :NAME
+   "7"
+   :FORMULA
+   "g"
+   :JUSTIFICATION
+   LOGIC::NEC-ELIM)
+  (:X
+   547
+   :Y
+   214
+   :ID
+   8
+   :NAME
+   "8"
+   :FORMULA
+   "(nec(not t))"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   636
+   :Y
+   64
+   :ID
+   4
+   :NAME
+   "GIVEN D"
+   :FORMULA
+   "(not g)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   53
+   :Y
+   70
+   :ID
+   1
+   :NAME
+   "GIVEN A"
+   :FORMULA
+   "(nec g)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   421
+   :Y
+   69
+   :ID
+   3
+   :NAME
+   "GIVEN C"
+   :FORMULA
+   "(if (not g) (nec (not t)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   533
+   :Y
+   368
+   :ID
+   9
+   :NAME
+   "GIVEN A"
+   :FORMULA
+   "(not t)"
+   :JUSTIFICATION
+   LOGIC::NEC-ELIM)
+  (:X
+   286
+   :Y
+   609
+   :ID
+   5
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(and \\zeta (not \\zeta) )"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY))
+ :STRUCTURES
+ ((:CONCLUSION 2 :PREMISES NIL)
+  (:CONCLUSION 10 :PREMISES (2))
+  (:CONCLUSION 7 :PREMISES (1))
+  (:CONCLUSION 8 :PREMISES (3 4))
+  (:CONCLUSION 4 :PREMISES NIL)
+  (:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 3 :PREMISES NIL)
+  (:CONCLUSION 9 :PREMISES (8))
+  (:CONCLUSION 5 :PREMISES (7 10 9)))
+ :INTERFACE
+ (:X 0 :Y 0 :WIDTH 1000 :HEIGHT 800 :PROOF-SYSTEM LOGIC::D))
