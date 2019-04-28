@@ -51,7 +51,7 @@
 |KnightKnave_SmullyanKKProblem1.1|[本页](KnightKnave_SmullyanKKProblem1.1.slt)|128 symbols|
 |AthenCfromAthenBandBthenC|[本页](AthenCfromAthenBandBthenC.slt)|30 symbols|
 |EmmaHelpedToo|[本页](EmmaHelpedToo.slt)|162 symbols|
-|Special_Problem_1|-|两种常见题型，一对一解答请看上方|
+|Special_Problem_1|[联系帮助](#一对一)|两种常见题型|
 |Th2.86PrinMath|[本页](Th2.86PrinMath.slt)|42 symbols|
 |END EVENT|-|**TEST 1**|
 |HypSyll|[本页](hypsyll.slt)|全部作业答案中包含|
@@ -78,9 +78,9 @@
 |ChisholmsParadox|[本页](ChisholmsParadox.slt)|全部答案中文件损坏|
 |Modus_Tollens|正在整理|包含在全部答案中|
 |Disj_Syll|正在整理|包含在全部答案中|
-|Special_Problem_3a|[联系帮助](#E4%B8%80%E5%AF%B9%E4%B8%80)|生成题目，多种模版|
-|Special_Problem_3b|[联系帮助](#E4%B8%80%E5%AF%B9%E4%B8%80)|生成题目，固定模版|
-|Special_Problem_3c|[联系帮助](#E4%B8%80%E5%AF%B9%E4%B8%80)|生成题目，[固定思路](images/sp3c.jpg)|
+|Special_Problem_3a|[联系帮助](#一对一)|生成题目，多种模版|
+|Special_Problem_3b|[联系帮助](#一对一)|生成题目，固定模版|
+|Special_Problem_3c|[联系帮助](#一对一)|生成题目，[固定思路](images/sp3c.jpg)|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
