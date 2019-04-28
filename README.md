@@ -76,6 +76,11 @@
 |TheFreeChoicePermissionParadox|[本页](TheFreeChoicePermissionParadox.slt)|包含在全部答案中|
 |ObligatoryObligationsImplyPermissibleObligations|[本页](ObligatoryObligationsImplyPermissibleObligations.slt)|包含在全部答案中|
 |ChisholmsParadox|[本页](ChisholmsParadox.slt)|全部答案中文件损坏|
+|Modus_Tollens|正在整理|包含在全部答案中|
+|Disj_Syll|正在整理|包含在全部答案中|
+|Special_Problem_3a|(联系帮助)[#一对一]|生成题目，固定思路|
+|Special_Problem_3b|(联系帮助)[#一对一]|生成题目，固定思路|
+|Special_Problem_3c|(联系帮助)[#一对一]|生成题目，固定思路|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
@@ -83,11 +88,9 @@
 |PA_20_GE_0|正在整理|~|
 |The_Dreadsbury_Mansion_Mystery1|正在整理|~|
 |AHappyThingLikesLarry|正在整理|~|
-|Disj_Syll|正在整理|~|
 |GreenCheeseMoon2|正在整理|~|
 |ImpossibilityNotObligatory|正在整理|~|
 |LarryIsSomehowSmart|正在整理|~|
-|Modus_Tollens|正在整理|~|
 |NoMoreThan3LazyLlamas|正在整理|~|
 |ObligatoryConjunction|正在整理|~|
 |ObligatoryConjuncts|正在整理|~|
