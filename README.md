@@ -12,6 +12,8 @@
 
 - [符号对照表](/symbols.md)
 
+- [如何获取自己的Cookie](https://i.loli.net/2019/02/02/5c54b806d07fc.gif)
+
 
 ## 一对一
 
