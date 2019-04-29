@@ -45,7 +45,7 @@
    :NAME
    "6"
    :FORMULA
-   "(or \\zeta (not \\zeta) )"
+   "(and \\zeta (not \\zeta) )"
    :JUSTIFICATION
    LOGIC::PC-PROVABILITY)
   (:X
