@@ -81,12 +81,12 @@
 |Special_Problem_3a|[联系帮助](#一对一)|生成题目，多种模版|
 |Special_Problem_3b|[联系帮助](#一对一)|生成题目，固定模版|
 |Special_Problem_3c|[联系帮助](#一对一)|生成题目，[固定思路](images/sp3c.jpg)|
+|The_Dreadsbury_Mansion_Mystery1|[题目](The_Dreadsbury_Mansion_Mystery1.slt)|尚未解决，Bonus|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
 |NotOb-ObPandQ_and_ObPimpliesnotQ|正在整理|~|
 |PA_20_GE_0|正在整理|~|
-|The_Dreadsbury_Mansion_Mystery1|正在整理|~|
 |AHappyThingLikesLarry|正在整理|~|
 |GreenCheeseMoon2|正在整理|~|
 |ImpossibilityNotObligatory|正在整理|~|
