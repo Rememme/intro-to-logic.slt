@@ -1,0 +1,157 @@
+
+(:DESCRIPTIONS
+ ((:X
+   89
+   :Y
+   88
+   :ID
+   1
+   :NAME
+   "Clue 1"
+   :FORMULA
+   "(exists (x) (and (Lives x mansion) (Killed x agatha) ))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   591
+   :Y
+   627
+   :ID
+   19
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(Killed agatha agatha)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   319
+   :Y
+   94
+   :ID
+   3
+   :NAME
+   "Clue 2"
+   :FORMULA
+   "(forall (x) (iff (Lives x mansion) (or (= x agatha) (= x thebutler) (= x charles) )))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   925
+   :Y
+   89
+   :ID
+   5
+   :NAME
+   "Clue 3"
+   :FORMULA
+   "(forall (x y) (if (Killed x y) (and (Hates x y) (not (Richer x y)) )))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   41
+   :Y
+   154
+   :ID
+   7
+   :NAME
+   "Clue 4"
+   :FORMULA
+   "(forall (x) (if (Hates agatha x) (not (Hates charles x))))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   48
+   :Y
+   352
+   :ID
+   15
+   :NAME
+   "Clue 8"
+   :FORMULA
+   "(not (exists (x) (and (Lives x mansion) (forall (y) (if (Lives y mansion) (Hates x y))) )))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   531
+   :Y
+   157
+   :ID
+   9
+   :NAME
+   "Clue 5"
+   :FORMULA
+   "(forall (x) (iff (not (= x thebutler)) (Hates agatha x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   945
+   :Y
+   166
+   :ID
+   10
+   :NAME
+   "Clue 6"
+   :FORMULA
+   "(forall (x) (if (not (Richer x agatha)) (Hates thebutler x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   126
+   :Y
+   246
+   :ID
+   13
+   :NAME
+   "Clue 7"
+   :FORMULA
+   "(forall (x) (if (Hates agatha x) (Hates thebutler x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   175
+   :Y
+   447
+   :ID
+   17
+   :NAME
+   "Clue 9"
+   :FORMULA
+   "(not (= agatha thebutler))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   654
+   :Y
+   239
+   :ID
+   24
+   :NAME
+   "Clue 5"
+   :FORMULA
+   "(not (Killed agatha agatha))"
+   :JUSTIFICATION
+   LOGIC::ASSUME))
+ :STRUCTURES
+ ((:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 19 :PREMISES NIL)
+  (:CONCLUSION 3 :PREMISES NIL)
+  (:CONCLUSION 5 :PREMISES NIL)
+  (:CONCLUSION 7 :PREMISES NIL)
+  (:CONCLUSION 15 :PREMISES NIL)
+  (:CONCLUSION 9 :PREMISES NIL)
+  (:CONCLUSION 10 :PREMISES NIL)
+  (:CONCLUSION 13 :PREMISES NIL)
+  (:CONCLUSION 17 :PREMISES NIL)
+  (:CONCLUSION 24 :PREMISES NIL))
+ :INTERFACE
+ (:X
+  0
+  :Y
+  0
+  :WIDTH
+  1536
+  :HEIGHT
+  781
+  :PROOF-SYSTEM
+  LOGIC::FIRST-ORDER-LOGIC))
