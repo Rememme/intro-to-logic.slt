@@ -72,7 +72,7 @@
 |AlienAbsorption|Working|~|
 |END EVENT|-|**TEST 2**|
 |Lp_and_Mp_implies_M-p_and_q|[本页](Lp_and_Mp_implies_M-p_and_q.slt)|包含在全部答案中|
-|DoubleMindedMan1|Working|Bonus Qs|
+|DoubleMindedMan1|[图片](images/DoubleMindedMan.png)|Bonus Qs|
 |TheFreeChoicePermissionParadox|[本页](TheFreeChoicePermissionParadox.slt)|包含在全部答案中|
 |ObligatoryObligationsImplyPermissibleObligations|[本页](ObligatoryObligationsImplyPermissibleObligations.slt)|包含在全部答案中|
 |ChisholmsParadox|[本页](ChisholmsParadox.slt)|全部答案中文件损坏|
