@@ -81,7 +81,7 @@
 |Special_Problem_3a|[联系帮助](#一对一)|生成题目，多种模版|
 |Special_Problem_3b|[联系帮助](#一对一)|生成题目，固定模版|
 |Special_Problem_3c|[联系帮助](#一对一)|生成题目，[固定思路](images/sp3c.jpg)|
-|The_Dreadsbury_Mansion_Mystery1|[题目](The_Dreadsbury_Mansion_Mystery1.slt)|尚未解决，Bonus|
+|The_Dreadsbury_Mansion_Mystery1|[本页](The_Dreadsbury_Mansion_Mystery1.slt)|Bonus，建议使用前使用文本编辑器批量替换其中的`theone`,`theother`变量至其他名字|
 |5y2se|正在整理|~|
 |test1Problem|正在整理|~|
 |ImpossibilityEntailsLackOfNecessity|正在整理|~|
