@@ -1,93 +1,9 @@
 
 (:DESCRIPTIONS
  ((:X
-   89
+   664
    :Y
-   88
-   :ID
-   1
-   :NAME
-   "Clue 1"
-   :FORMULA
-   "(exists (x) (and (Lives x mansion) (Killed x agatha) ))"
-   :JUSTIFICATION
-   LOGIC::ASSUME)
-  (:X
-   591
-   :Y
-   627
-   :ID
-   19
-   :NAME
-   "GOAL"
-   :FORMULA
-   "(Killed agatha agatha)"
-   :JUSTIFICATION
-   LOGIC::ASSUME)
-  (:X
-   319
-   :Y
-   94
-   :ID
-   3
-   :NAME
-   "Clue 2"
-   :FORMULA
-   "(forall (x) (iff (Lives x mansion) (or (= x agatha) (= x thebutler) (= x charles) )))"
-   :JUSTIFICATION
-   LOGIC::ASSUME)
-  (:X
-   925
-   :Y
-   89
-   :ID
-   5
-   :NAME
-   "Clue 3"
-   :FORMULA
-   "(forall (x y) (if (Killed x y) (and (Hates x y) (not (Richer x y)) )))"
-   :JUSTIFICATION
-   LOGIC::ASSUME)
-  (:X
-   41
-   :Y
-   154
-   :ID
-   7
-   :NAME
-   "Clue 4"
-   :FORMULA
-   "(forall (x) (if (Hates agatha x) (not (Hates charles x))))"
-   :JUSTIFICATION
-   LOGIC::ASSUME)
-  (:X
-   48
-   :Y
-   352
-   :ID
-   15
-   :NAME
-   "Clue 8"
-   :FORMULA
-   "(not (exists (x) (and (Lives x mansion) (forall (y) (if (Lives y mansion) (Hates x y))) )))"
-   :JUSTIFICATION
-   LOGIC::ASSUME)
-  (:X
-   531
-   :Y
-   157
-   :ID
-   9
-   :NAME
-   "Clue 5"
-   :FORMULA
-   "(forall (x) (iff (not (= x thebutler)) (Hates agatha x)))"
-   :JUSTIFICATION
-   LOGIC::ASSUME)
-  (:X
-   945
-   :Y
-   166
+   1174
    :ID
    10
    :NAME
@@ -97,21 +13,165 @@
    :JUSTIFICATION
    LOGIC::ASSUME)
   (:X
-   126
+   667
    :Y
-   246
+   1314
    :ID
-   13
+   40
    :NAME
-   "Clue 7"
+   ""
    :FORMULA
-   "(forall (x) (if (Hates agatha x) (Hates thebutler x)))"
+   "(if (not (Richer thebutler agatha)) (Hates thebutler thebutler))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   2583
+   :Y
+   2182
+   :ID
+   19
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(Killed agatha agatha)"
+   :JUSTIFICATION
+   LOGIC::EXISTS-ELIM)
+  (:X
+   2490
+   :Y
+   2051
+   :ID
+   24
+   :NAME
+   ""
+   :FORMULA
+   "(Killed agatha agatha)"
+   :JUSTIFICATION
+   LOGIC::=-ELIM)
+  (:X
+   3000
+   :Y
+   1966
+   :ID
+   1
+   :NAME
+   "Clue 1"
+   :FORMULA
+   "(exists (x) (and (Lives x mansion) (Killed x agatha) ))"
    :JUSTIFICATION
    LOGIC::ASSUME)
   (:X
-   175
+   2302
    :Y
-   447
+   1896
+   :ID
+   26
+   :NAME
+   ""
+   :FORMULA
+   "(= theone agatha)"
+   :JUSTIFICATION
+   LOGIC::OR-ELIM)
+  (:X
+   2483
+   :Y
+   1656
+   :ID
+   29
+   :NAME
+   ""
+   :FORMULA
+   "(= theone agatha)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   2363
+   :Y
+   897
+   :ID
+   32
+   :NAME
+   ""
+   :FORMULA
+   "(Killed charles agatha)"
+   :JUSTIFICATION
+   LOGIC::=-ELIM)
+  (:X
+   2509
+   :Y
+   765
+   :ID
+   30
+   :NAME
+   ""
+   :FORMULA
+   "(= theone charles)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   1978
+   :Y
+   1023
+   :ID
+   31
+   :NAME
+   ""
+   :FORMULA
+   "(= theone agatha)"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   2143
+   :Y
+   707
+   :ID
+   35
+   :NAME
+   ""
+   :FORMULA
+   "(if (Killed charles agatha) (and (Hates charles agatha) (not (Richer charles agatha)) ))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   1362
+   :Y
+   589
+   :ID
+   7
+   :NAME
+   "Clue 4"
+   :FORMULA
+   "(forall (x) (if (Hates agatha x) (not (Hates charles x))))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   1361
+   :Y
+   705
+   :ID
+   33
+   :NAME
+   ""
+   :FORMULA
+   "(if (Hates agatha agatha) (not (Hates charles agatha)))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   2209
+   :Y
+   588
+   :ID
+   36
+   :NAME
+   ""
+   :FORMULA
+   "(forall (y) (if (Killed charles y) (and (Hates charles y) (not (Richer charles y)) )))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   1165
+   :Y
+   812
    :ID
    17
    :NAME
@@ -121,37 +181,601 @@
    :JUSTIFICATION
    LOGIC::ASSUME)
   (:X
-   654
+   3318
    :Y
-   239
+   803
    :ID
-   24
+   27
+   :NAME
+   ""
+   :FORMULA
+   "(Killed theone agatha)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   2154
+   :Y
+   1656
+   :ID
+   43
+   :NAME
+   ""
+   :FORMULA
+   "(Killed thebutler agatha)"
+   :JUSTIFICATION
+   LOGIC::=-ELIM)
+  (:X
+   2226
+   :Y
+   1488
+   :ID
+   38
+   :NAME
+   ""
+   :FORMULA
+   "(= theone thebutler)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   1827
+   :Y
+   1810
+   :ID
+   44
+   :NAME
+   ""
+   :FORMULA
+   "(= theone agatha)"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   1111
+   :Y
+   2520
+   :ID
+   54
+   :NAME
+   ""
+   :FORMULA
+   "(Richer thebutler agatha)"
+   :JUSTIFICATION
+   LOGIC::NOT-ELIM)
+  (:X
+   996
+   :Y
+   2376
+   :ID
+   49
+   :NAME
+   ""
+   :FORMULA
+   "(exists (x) (and (Lives x mansion) (forall (y) (if (Lives y mansion) (Hates x y))) ))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-INTRO)
+  (:X
+   343
+   :Y
+   2197
+   :ID
+   15
+   :NAME
+   "Clue 8"
+   :FORMULA
+   "(not (exists (x) (and (Lives x mansion) (forall (y) (if (Lives y mansion) (Hates x y))) )))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   954
+   :Y
+   2267
+   :ID
+   50
+   :NAME
+   ""
+   :FORMULA
+   "(and (Lives thebutler mansion) (forall (y) (if (Lives y mansion) (Hates thebutler y))) )"
+   :JUSTIFICATION
+   LOGIC::AND-INTRO)
+  (:X
+   1865
+   :Y
+   1569
+   :ID
+   47
+   :NAME
+   ""
+   :FORMULA
+   "(Lives thebutler mansion)"
+   :JUSTIFICATION
+   LOGIC::=-ELIM)
+  (:X
+   2969
+   :Y
+   587
+   :ID
+   37
+   :NAME
+   ""
+   :FORMULA
+   " (or (= theone agatha) (= theone thebutler) (= theone charles) )"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   1173
+   :Y
+   1504
+   :ID
+   56
+   :NAME
+   ""
+   :FORMULA
+   " (or (= theother agatha) (= theother thebutler) (= theother charles) )"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   784
+   :Y
+   1483
+   :ID
+   45
+   :NAME
+   ""
+   :FORMULA
+   "(Hates thebutler agatha)"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   1039
+   :Y
+   2146
+   :ID
+   51
+   :NAME
+   ""
+   :FORMULA
+   "(forall (y) (if (Lives y mansion) (Hates thebutler y)))"
+   :JUSTIFICATION
+   LOGIC::FORALL-INTRO)
+  (:X
+   893
+   :Y
+   1917
+   :ID
+   62
+   :NAME
+   ""
+   :FORMULA
+   "(Hates thebutler theother)"
+   :JUSTIFICATION
+   LOGIC::OR-ELIM)
+  (:X
+   1009
+   :Y
+   2037
+   :ID
+   53
+   :NAME
+   ""
+   :FORMULA
+   "(if (Lives theother mansion) (Hates thebutler theother))"
+   :JUSTIFICATION
+   LOGIC::IF-INTRO)
+  (:X
+   688
+   :Y
+   2070
+   :ID
+   64
+   :NAME
+   ""
+   :FORMULA
+   "(Hates thebutler theother)"
+   :JUSTIFICATION
+   LOGIC::=-ELIM)
+  (:X
+   1015
+   :Y
+   1672
+   :ID
+   58
+   :NAME
+   ""
+   :FORMULA
+   "(Hates thebutler theother)"
+   :JUSTIFICATION
+   LOGIC::=-ELIM)
+  (:X
+   1178
+   :Y
+   1571
+   :ID
+   57
+   :NAME
+   ""
+   :FORMULA
+   "(= theother agatha)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   840
+   :Y
+   1628
+   :ID
+   60
+   :NAME
+   ""
+   :FORMULA
+   "(= theother thebutler)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   831
+   :Y
+   1767
+   :ID
+   61
+   :NAME
+   ""
+   :FORMULA
+   "(Hates thebutler theother)"
+   :JUSTIFICATION
+   LOGIC::=-ELIM)
+  (:X
+   627
+   :Y
+   1575
+   :ID
+   59
+   :NAME
+   ""
+   :FORMULA
+   "(Hates thebutler thebutler)"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   763
+   :Y
+   1851
+   :ID
+   63
+   :NAME
+   ""
+   :FORMULA
+   "(= theother charles)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   685
+   :Y
+   845
+   :ID
+   34
+   :NAME
+   ""
+   :FORMULA
+   "(iff (not (= agatha thebutler)) (Hates agatha agatha))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   479
+   :Y
+   1640
+   :ID
+   66
+   :NAME
+   ""
+   :FORMULA
+   "(= charles thebutler)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   519
+   :Y
+   1759
+   :ID
+   67
+   :NAME
+   ""
+   :FORMULA
+   "(Hates thebutler charles)"
+   :JUSTIFICATION
+   LOGIC::=-ELIM)
+  (:X
+   299
+   :Y
+   1826
+   :ID
+   65
+   :NAME
+   ""
+   :FORMULA
+   "(or (= charles thebutler) (not (= charles thebutler)))"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   476
+   :Y
+   1431
+   :ID
+   46
+   :NAME
+   ""
+   :FORMULA
+   "(not (Richer thebutler agatha))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   249
+   :Y
+   1073
+   :ID
+   13
+   :NAME
+   "Clue 7"
+   :FORMULA
+   "(forall (x) (if (Hates agatha x) (Hates thebutler x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   351
+   :Y
+   1249
+   :ID
+   39
+   :NAME
+   ""
+   :FORMULA
+   "(if (Hates agatha agatha) (Hates thebutler agatha))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   137
+   :Y
+   1360
+   :ID
+   72
+   :NAME
+   ""
+   :FORMULA
+   "(iff (not (= charles thebutler)) (Hates agatha charles))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   9
+   :Y
+   1292
+   :ID
+   70
+   :NAME
+   ""
+   :FORMULA
+   "(not (= charles thebutler))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   40
+   :Y
+   1702
+   :ID
+   71
+   :NAME
+   ""
+   :FORMULA
+   "(if (Hates agatha charles) (Hates thebutler charles))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   80
+   :Y
+   1918
+   :ID
+   69
+   :NAME
+   ""
+   :FORMULA
+   "(Hates thebutler charles)"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   498
+   :Y
+   1992
+   :ID
+   68
+   :NAME
+   ""
+   :FORMULA
+   "(Hates thebutler charles)"
+   :JUSTIFICATION
+   LOGIC::OR-ELIM)
+  (:X
+   319
+   :Y
+   673
+   :ID
+   9
    :NAME
    "Clue 5"
    :FORMULA
-   "(not (Killed agatha agatha))"
+   "(forall (x) (iff (not (= x thebutler)) (Hates agatha x)))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   1732
+   :Y
+   438
+   :ID
+   5
+   :NAME
+   "Clue 3"
+   :FORMULA
+   "(forall (x y) (if (Killed x y) (and (Hates x y) (not (Richer x y)) )))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   2573
+   :Y
+   455
+   :ID
+   28
+   :NAME
+   ""
+   :FORMULA
+   "(iff (Lives theone mansion) (or (= theone agatha) (= theone thebutler) (= theone charles) ))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   3192
+   :Y
+   352
+   :ID
+   25
+   :NAME
+   ""
+   :FORMULA
+   "(and (Lives theone mansion) (Killed theone agatha) )"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   2945
+   :Y
+   766
+   :ID
+   48
+   :NAME
+   ""
+   :FORMULA
+   "(Lives theone mansion)"
+   :JUSTIFICATION
+   LOGIC::AND-ELIM)
+  (:X
+   1643
+   :Y
+   1409
+   :ID
+   52
+   :NAME
+   ""
+   :FORMULA
+   "(Lives theother mansion)"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   1256
+   :Y
+   1343
+   :ID
+   55
+   :NAME
+   ""
+   :FORMULA
+   "(iff (Lives theother mansion) (or (= theother agatha) (= theother thebutler) (= theother charles) ))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   1162
+   :Y
+   1187
+   :ID
+   42
+   :NAME
+   ""
+   :FORMULA
+   "(if (Killed thebutler agatha) (and (Hates thebutler agatha) (not (Richer thebutler agatha)) ))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   1226
+   :Y
+   1068
+   :ID
+   41
+   :NAME
+   ""
+   :FORMULA
+   "(forall (y) (if (Killed thebutler y) (and (Hates thebutler y) (not (Richer thebutler y)) )))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   1988
+   :Y
+   335
+   :ID
+   3
+   :NAME
+   "Clue 2"
+   :FORMULA
+   "(forall (x) (iff (Lives x mansion) (or (= x agatha) (= x thebutler) (= x charles) )))"
    :JUSTIFICATION
    LOGIC::ASSUME))
  :STRUCTURES
- ((:CONCLUSION 1 :PREMISES NIL)
-  (:CONCLUSION 19 :PREMISES NIL)
-  (:CONCLUSION 3 :PREMISES NIL)
-  (:CONCLUSION 5 :PREMISES NIL)
+ ((:CONCLUSION 10 :PREMISES NIL)
+  (:CONCLUSION 40 :PREMISES (10))
+  (:CONCLUSION 19 :PREMISES (1 24))
+  (:CONCLUSION 24 :PREMISES (26 27))
+  (:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 26 :PREMISES (29 37 31 44))
+  (:CONCLUSION 29 :PREMISES NIL)
+  (:CONCLUSION 32 :PREMISES (30 27))
+  (:CONCLUSION 30 :PREMISES NIL)
+  (:CONCLUSION 31 :PREMISES (17 33 34 32 35))
+  (:CONCLUSION 35 :PREMISES (36))
   (:CONCLUSION 7 :PREMISES NIL)
-  (:CONCLUSION 15 :PREMISES NIL)
-  (:CONCLUSION 9 :PREMISES NIL)
-  (:CONCLUSION 10 :PREMISES NIL)
-  (:CONCLUSION 13 :PREMISES NIL)
+  (:CONCLUSION 33 :PREMISES (7))
+  (:CONCLUSION 36 :PREMISES (5))
   (:CONCLUSION 17 :PREMISES NIL)
-  (:CONCLUSION 24 :PREMISES NIL))
+  (:CONCLUSION 27 :PREMISES (25))
+  (:CONCLUSION 43 :PREMISES (38 27))
+  (:CONCLUSION 38 :PREMISES NIL)
+  (:CONCLUSION 44 :PREMISES (43 42 54))
+  (:CONCLUSION 54 :PREMISES (49 15))
+  (:CONCLUSION 49 :PREMISES (50))
+  (:CONCLUSION 15 :PREMISES NIL)
+  (:CONCLUSION 50 :PREMISES (51 47))
+  (:CONCLUSION 47 :PREMISES (38 48))
+  (:CONCLUSION 37 :PREMISES (25 28))
+  (:CONCLUSION 56 :PREMISES (52 55))
+  (:CONCLUSION 45 :PREMISES (34 39 17))
+  (:CONCLUSION 51 :PREMISES (53))
+  (:CONCLUSION 62 :PREMISES (61 58 56 64))
+  (:CONCLUSION 53 :PREMISES (62))
+  (:CONCLUSION 64 :PREMISES (63 68))
+  (:CONCLUSION 58 :PREMISES (45 57))
+  (:CONCLUSION 57 :PREMISES NIL)
+  (:CONCLUSION 60 :PREMISES NIL)
+  (:CONCLUSION 61 :PREMISES (60 59))
+  (:CONCLUSION 59 :PREMISES (46 40))
+  (:CONCLUSION 63 :PREMISES NIL)
+  (:CONCLUSION 34 :PREMISES (9))
+  (:CONCLUSION 66 :PREMISES NIL)
+  (:CONCLUSION 67 :PREMISES (66 59))
+  (:CONCLUSION 65 :PREMISES NIL)
+  (:CONCLUSION 46 :PREMISES NIL)
+  (:CONCLUSION 13 :PREMISES NIL)
+  (:CONCLUSION 39 :PREMISES (13))
+  (:CONCLUSION 72 :PREMISES (9))
+  (:CONCLUSION 70 :PREMISES NIL)
+  (:CONCLUSION 71 :PREMISES (13))
+  (:CONCLUSION 69 :PREMISES (71 70 72))
+  (:CONCLUSION 68 :PREMISES (67 65 69))
+  (:CONCLUSION 9 :PREMISES NIL)
+  (:CONCLUSION 5 :PREMISES NIL)
+  (:CONCLUSION 28 :PREMISES (3))
+  (:CONCLUSION 25 :PREMISES NIL)
+  (:CONCLUSION 48 :PREMISES (25))
+  (:CONCLUSION 52 :PREMISES NIL)
+  (:CONCLUSION 55 :PREMISES (3))
+  (:CONCLUSION 42 :PREMISES (41))
+  (:CONCLUSION 41 :PREMISES (5))
+  (:CONCLUSION 3 :PREMISES NIL))
  :INTERFACE
  (:X
   0
   :Y
   0
   :WIDTH
-  1536
+  1920
   :HEIGHT
-  781
+  997
   :PROOF-SYSTEM
   LOGIC::FIRST-ORDER-LOGIC))
