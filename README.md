@@ -72,12 +72,12 @@
 |AlienAbsorption|Working|~|
 |END EVENT|-|**TEST 2**|
 |Lp_and_Mp_implies_M-p_and_q|[本页](Lp_and_Mp_implies_M-p_and_q.slt)|包含在全部答案中|
-|DoubleMindedMan1|[图片](images/DoubleMindedMan.png)|Bonus Qs|
+|DoubleMindedMan1|[本页](DoubleMindedMan1.slt),[图片](images/DoubleMindedMan.png)|Bonus Qs|
 |TheFreeChoicePermissionParadox|[本页](TheFreeChoicePermissionParadox.slt)|包含在全部答案中|
 |ObligatoryObligationsImplyPermissibleObligations|[本页](ObligatoryObligationsImplyPermissibleObligations.slt)|包含在全部答案中|
 |ChisholmsParadox|[本页](ChisholmsParadox.slt)|全部答案中文件损坏|
 |Modus_Tollens|正在整理|包含在全部答案中|
-|Disj_Syll|正在整理|包含在全部答案中|
+|Disj_Syll|[本页](Disj_Syll.slt)|包含在全部答案中|
 |Special_Problem_3a|[联系帮助](#一对一)|生成题目，多种模版|
 |Special_Problem_3b|[联系帮助](#一对一)|生成题目，固定模版|
 |Special_Problem_3c|[联系帮助](#一对一)|生成题目，[固定思路](images/sp3c.jpg)|
@@ -88,18 +88,19 @@
 |NotOb-ObPandQ_and_ObPimpliesnotQ|正在整理|~|
 |PA_20_GE_0|正在整理|~|
 |AHappyThingLikesLarry|正在整理|~|
-|GreenCheeseMoon2|正在整理|~|
+|GreenCheeseMoon2|[本页](GreenCheeseMoon2.slt)|[感谢](https://github.com/lyzhang0113)|
 |ImpossibilityNotObligatory|正在整理|~|
-|LarryIsSomehowSmart|正在整理|~|
+|LarryIsSomehowSmart|[本页](LarryIsSomehowSmart.slt)|[感谢](https://github.com/lyzhang0113)|
 |NoMoreThan3LazyLlamas|正在整理|~|
 |ObligatoryConjunction|正在整理|~|
 |ObligatoryConjuncts|正在整理|~|
 |PA_12_GE_0|正在整理|~|
 |PA_SOL_Test|正在整理|~|
-|QuantifierShift1|正在整理|~|
+|QuantifierShift1|[本页](QuantifierShift1.slt)|~|
 |luger|正在整理|~|
 |rainingSnowingProblem|正在整理|~|
 |test_NL|正在整理|~|
-|Coq1|正在整理|~|
-|kok13_28|正在整理|~|
+|Coq1|[本页](Coq1.slt)|[感谢](https://github.com/lyzhang0113)|
+|kok13_28|[本页](kok13_28.slt)|[感谢](https://github.com/lyzhang0113)|
 |RipsSaysNo2|正在整理|~|
+|LevesquePrologProgram1|[本页](LevesquePrologProgram1.slt)|[感谢](https://github.com/lyzhang0113)|
