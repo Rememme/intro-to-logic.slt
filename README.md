@@ -2,9 +2,7 @@
 
 ![Message to our daddy!](https://i.imgur.com/4wNs2dF.png)
 
-软件(Hyperslate.exe 用于打开文件)/大部分作业答案下载 -> [链接](../../releases)
-
-[Logic Uploader](https://logic-uploader-6asgq0yhbf0x.runkit.sh) **暂停使用**（虽然已知当前 HyperGrader 加密方式和实现），出于安全考虑，建议大家自行输入答案）
+软件(Hyperslate.exe **用于打开文件**)/大部分作业答案下载 -> [链接](../../releases)
 
 ## 提示
 
@@ -32,6 +30,8 @@
 |金额|留言|
 |-|-|
 |￥100|兄弟为啥什么都会|
+|￥100|匿名感谢|
+|￥10|匿名感谢|
 
 ## Answers
 
